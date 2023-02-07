@@ -1,0 +1,1682 @@
+/* large screens */
+@media (min-width:1281px) {
+  #fullscreenLogin {
+    max-width: 100%;
+    width: 100%;
+  }
+  #loginLeft {
+    max-width: 100%;
+    width: 35rem;
+  }
+  hr {
+    height: 32rem;
+  }
+  #loginRight {
+    width: 27.9rem;
+  }
+  #loginForm1 a {
+    margin: 1rem 0 0 20rem;
+  }
+  #loginForm2 a {
+    margin: 1rem 0 0 22rem;
+  }
+  #loginRight #loginSi {
+    top: 5.5rem;
+    margin: 0rem 9rem;
+  }
+  #loginRight #loginSi p  {
+    font-size: 0.9rem;
+  }
+  #loginRight1 {
+    max-width: 100%;
+    width: 28rem;
+  }
+  #loginRight1 h1 {
+    padding: 0rem 6rem;
+  }
+  #signUpRight {
+    width: 27.9rem;
+    padding: 2rem;
+  }
+  #signUPForm1 a {
+    margin: 1rem 0 0 20rem;
+  }
+  #signUPForm2 a {
+    margin: 1rem 0 0 22rem;
+  }
+  #signUPForm2 #resendTim {
+    margin: 1rem 0 0 17.75rem;
+  }
+  #signUPForm2 #resend p {
+    margin: -1.5rem 0 0 20rem;
+  }
+  #signUPForm3 a {
+    margin: 1rem 0 0 22rem;
+  }
+  #signUpRight #loginSi {
+    top: 6.5rem;
+    margin: 0rem 9rem;
+  }
+  #signUpRight #loginSi p  {
+    font-size: 0.9rem;
+  }
+  #fpwdRight {
+    width: 27.9rem;
+    padding: 2rem;
+  }
+  #fpwdForm1 a {
+    margin: 1rem 0 0 20rem;
+  }
+  #fpwdForm2 a {
+    margin: 1rem 0 0 22rem;
+  }
+  #fpwdForm2 #resendTim {
+    margin: 1rem 0 0 17.75rem;
+  }  
+  #fpwdForm2 #resend p {
+    margin: -1.5rem 0 0 20rem;
+  }
+  #fpwdForm3 a {
+    margin: 1rem 0 0 22rem;
+  }
+  #fpwdRight #loginSi {
+    top: 6.5rem;
+    margin: 0rem 9rem;
+  }
+  #fpwdRight #loginSi p  {
+    font-size: 0.9rem;
+  }
+  #mark p{
+    font-size: 1.5rem;
+    margin: 1rem 0 0 37rem;
+  }
+  #loginMsg {
+    margin: 1rem 39rem;
+    padding-left: 0rem;
+  }  
+  #loginMsg1 {
+    margin: 1rem 38rem;
+  }  
+
+  /* Subscription Management */
+  #headImg #headImg1 {
+    width: 82rem;
+  }
+  #headImg #headImg1 img {
+    margin: 0 2rem;
+  }
+  #headImg #headImg2 {
+    margin-left: 29rem;
+  }
+  #headImg h1{
+    margin-left: 27rem;
+  }
+  #headImg p {
+    margin-left: 31rem;
+  }
+  #list {
+    margin: 0 4.5rem 7rem 4.5rem;
+  }
+  #paymentHeadHr1 hr,
+  #paymentHeadHr hr,
+  #paymentHr hr {
+    height: 0;
+  }
+  #columnTable1 {
+    width: 78rem;
+  }
+
+  /* user management */
+  #userIndex {
+    width: 82rem;
+    height: 50rem;
+  }
+
+  /* enable google authenticator */
+  #enableStep {
+    margin: 2.5rem 18rem;
+  }
+  #enableStep #enableStep1Header .ebableStep1HeaderHrHighLight hr,
+  #enableStep #enableStep1Header #ebableStep1HeaderHr hr,
+  #enableStep1Body #enableBodyRight hr {
+    height: 1px;
+  }
+  /* step 4 */
+  #enableStepForm #enableStepFormEmail #sendCode,
+  #enableStepForm #enableStepFormEmail #enableResendTim {
+    left: 49.7rem;
+  }
+  /* step 4 conclusion */
+  #enableStepForm #enableStepFormEmail #enabled {
+    left: 54rem;
+  }
+  #enableVerified {
+    margin: 0 30.5rem;
+  }
+  /* step security verification */
+  #enableStepSecurityVerify #enableStepForm #enableStepFormEmail #sendCode {
+    left: 52rem;
+  }
+
+  /* payment details */
+  #paymentHistory hr {
+    height: 2px;
+  }
+  #paymentHistory #paymentHistorybody #paymentHistorybodyPaid #paymentHistorybodyPaidRight3,
+  #paymentHistory #paymentHistorybody #paymentHistorybodyPaid #paymentHistorybodyNotPaidRight3 {
+    width: 76rem;
+  }
+  /* payment details popover */
+  #contentPaymentDetails, #contentPaymentDetails1 {
+    box-shadow: 0px 0px 4px 271px #ffffff91;
+    left: 17rem;
+  }
+
+
+  /* notification */
+  #contentNavIconHeaderHR hr {
+    height: 2px;
+  }
+  /* profile */
+  #navIcon2HR hr {
+    height: 2px;
+  }
+        
+  /* about */
+  #about {
+    width: 83rem;
+  }
+  #aboutImg img {
+    margin: 0 2rem;
+  }
+  #about #aboutParaMore {
+    margin: 3rem 20rem;
+  }
+  #about #aboutParaMore #aboutParaMoreHR hr{
+    height: 2px;
+  }
+}
+
+/* small screen laptops */
+@media (min-width:769px) and (max-width:1024px) {
+  #fullscreenLogin {
+    max-width: 100%;
+    width: 100%;
+  }
+  #login {
+    margin: 5rem 9rem 0rem 9rem;
+  }
+  #loginLeft {
+    max-width: 100%;
+    width: 24rem;
+  }
+  #loginLeft #loginLeftText {
+    margin: -7rem 0 0 5rem;
+  }
+  #loginLeft h1 {
+    font-size: 2rem;
+  }
+  #loginLeft p {
+    font-size: 0.85rem;
+    margin: 0 1.7rem;
+  }
+  hr {
+    height: 26rem;
+  }
+  #loginRight h1 {
+    margin-bottom: 0rem;
+  }
+  #loginRight p {
+    margin-bottom: 0.75rem;
+  }
+  #loginForm1 {
+    margin-bottom: 0.75rem;
+  }
+  #loginForm1 a {
+    margin: 1rem 0 0 12rem;
+  }
+  #loginForm2 a {
+    margin: 1rem 0 0 14rem;
+  }
+  loginForm2 {
+    margin-bottom: 0.7rem;
+  }
+  .invalid-feedback {
+    font-size: 0.8rem;
+  }
+  #loginRight #loginCheckbox label {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  #loginRight #loginCheckbox p {
+    font-size: 0.9rem;
+  }
+  #loginRight button {
+    margin: 1rem 0 1rem 0;
+  }
+  #loginRight #loginSi {
+    top: 2.5rem;
+    margin: 0rem 4.6rem;
+  }
+  #loginRight1 {
+    margin: 9rem 0rem 0 0;
+  }
+  #loginRight1 h1 {
+    font-size: 1.7rem;
+    padding: 0rem 2rem;
+  }
+  #loginRight1 img {
+    position: relative;
+  }
+  #loginRight1 button {
+    margin: 3rem 5rem;
+  }
+  #signUpRight {
+    max-width: 100%;
+    width: 24rem;
+  }
+  #signUpRight h1 {
+    margin-bottom: 0rem;
+  }
+  #signUpRight p {
+    margin-bottom: 0.5rem;
+  }
+  #signUPForm1 a {
+    margin: 1rem 0 0 15rem;
+  }
+  #signUPForm2 a {
+    margin: 1rem 0 0 17rem;
+  }
+  #signUPForm2 #resendTim {
+    margin: 1rem 0 0 13rem;
+  }
+  #signUPForm2 #resend p {
+    margin: -1.5rem 0 0 15rem;
+  }
+  #signUpRight #loginCheckbox label {
+    margin: 0rem;
+  }
+  #signUPForm3 a {
+    margin: 1rem 0 0 17rem;
+  }
+  #signUpRight #loginSi {
+    top: 5.75rem;
+    margin: 0rem 6rem;
+  }
+  #fpwdRight {
+    width: 20rem;
+    padding: 1rem;
+  }
+  #fpwdRight p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  #fpwdForm1 a {
+    margin: 1rem 0 0 14.7rem;
+  }
+  #fpwdForm2 a {
+    margin: 1rem 0 0 17rem;
+  }
+  #fpwdForm2 #resendTim {
+    margin: 1rem 0 0 12.5rem;
+  }
+  #fpwdForm2 #resend p {
+    margin: -1.5rem 0 0 15.3rem;
+  }
+  #fpwdRight #loginCheckbox label {
+    margin: 0;
+  }
+  #fpwdForm3 a {
+    margin: 1rem 0 0 17rem;
+  }
+  #fpwdRight #loginSi {
+    top: 7rem;
+    margin: 0rem 6.4rem;
+  }
+
+  #mark p{
+    margin: 1rem 0 0 26rem;
+  }
+  #loginMsg,
+  #loginMsg1 {
+    margin: 1rem 25rem;
+  }
+  /* subscription management */
+  #headImg #headImg1 {
+    width: 60.2rem;
+  }
+  #headImg #headImg2 {
+    width: 20.5rem;
+    margin: -16rem 0 0 18rem;
+  }
+  #headImg h1 {
+    margin: -22rem 0 0 15rem;
+  }
+  #headImg p {
+    margin: -19rem 0 0 19rem;
+  }
+  #list .listBox {
+    width: 12rem;
+    height: 38rem;
+  }
+  #list .listBox:hover {
+    width: 14rem;
+  }
+  #list .listBox #boxImg,
+  #list .listBox #boxImg1 {
+    margin: 1rem 2.5rem;
+  }
+  .listBox h4 {
+    margin: -12px 78px;
+  }
+  #list .listBox .listBoxCheck {
+    margin: 1rem 0.25rem;
+  }
+  #list .listBox .listBoxCheck .listBoxCheckImg {
+    margin-right: 0.5rem;
+  }
+  #list .listBox .listBoxCheck p {
+    font-size: 0.9rem;
+  }
+  #list .listBox button,
+  #list .listBox .clickMe  {
+    font-size: 1rem;
+    margin: 0.7rem 0.3rem;
+  }
+  #list .listBox #content  {
+    top: 5%;
+    right: 88%;
+  }  
+  #paymentHeadHr1 hr,
+  #paymentHeadHr hr,
+  #paymentHr hr {
+    height: 0;
+  }
+  #contentPayment {
+    left: 50%;
+  }
+  #trial {
+    padding: 4rem 12rem;
+  }
+  #columns {
+    max-width: 100%;
+  }
+  #columnsHead #columnsImg {
+    margin: 1rem 26rem;
+  }
+  #columnTable1 {
+    margin: 0 3rem;
+    width: 54rem;
+  }
+  #roleDetailsHR hr {
+    height: 0;
+  }
+  #contentUserDetail #bodyUserDetail #bodyUserDetailImg {
+    width: 4rem;
+  }
+
+   /* payment details  */
+  #paymentHistory {
+    background-color: #FFFFFF;
+    max-width: 100%;
+    width: 88%;
+  }
+  #paymentHistory hr {
+    height: 0px;
+  }
+  #bodyPaidleft1 {
+    width: 0.7rem;
+    margin: 0px 1px -7px 10px;
+  }
+  #bodyPaidleft2 {
+    width: 0.7rem;
+    margin: 71px 1px -7px 10px;
+  }
+  #paymentHistory #paymentHistorybody #paymentHistorybodyPaid #paymentHistorybodyPaidRight3,
+  #paymentHistory #paymentHistorybody #paymentHistorybodyPaid #paymentHistorybodyNotPaidRight3 {
+    width: 50rem;
+  }
+  #paymentHistorybodyPaidRight3 p, #paymentHistorybodyNotPaidRight3 p {
+    font-size: 0.6rem;
+  }
+  #paymentHistorybodyPaidRight3 h5, #paymentHistorybodyNotPaidRight3 h5 {
+    font-size: 0.7rem;
+  }
+  #paymentHistorybodyPaidRight3 h3, #paymentHistorybodyNotPaidRight3 h3 {
+    font-size: 0.8rem;
+  }
+  #paymentHistorybodyPaidRight3 #bodyPaidRight3Sub1 #bodyPaidRight3Sub2, #paymentHistorybodyNotPaidRight3 #bodyPaidRight3Sub1 #bodyPaidRight3Sub2 {
+    border: 1px solid #DCDCDC;
+    padding: 5px;
+    font-size: 0.6rem;
+  }
+  /* payment popover */
+  #contentPaymentDetails, #contentPaymentDetails1 {
+    left: 6rem;
+  }
+  #PaymentDetailsBodyHR hr {
+    height: 2px;
+  }
+
+  /* user */
+  #userRoles {
+    width: 52rem;
+  }
+  #userRoles h3 {
+    width: 18rem;
+    padding: 1rem 5rem;
+  }
+  #userRolesName p {
+    width: 11rem;
+  }
+  #userRolesName1 label {
+    margin: 2rem 2rem 0.5rem 6rem;
+  }
+  /* user details */
+  #contentUserDetail {
+    height: 24rem;
+  }
+  #contentUserDetail #bodyUserDetail  {
+    display: flex;
+    flex-direction: column;
+  }
+  #contentUserDetail #bodyUserDetail #bodyUserDetailImg {
+    margin: 0 18rem;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail1 p {
+    margin: 0 9rem;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail1 {
+    margin: 0.5rem 6rem;
+    text-align: center;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail p,
+  #contentUserDetail #footerUserDetail .bodyUserDetail p {
+    font-size: 16px;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail h3,
+  #contentUserDetail #footerUserDetail .bodyUserDetail h3 {
+    width: 8rem;
+    font-size: 16px;
+  }
+  #contentUserDetail #footerUserDetail {
+    display: flex;
+    flex-direction: column;
+    margin: -2rem 0;
+  }
+  #contentAction3 {
+    left: -16rem;
+  }
+  #contentAction {
+    left: 0;
+  }
+  #userRolesName1 p {
+    padding: 1rem 1rem;
+  }
+  #userRolesName1 label {
+    margin: 2rem 2rem 0.5rem 1rem;
+  }
+
+  /* anable google authenticator */
+  #enableStep #enableStep1Header .ebableStep1HeaderHrHighLight hr,
+  #enableStep #enableStep1Header #ebableStep1HeaderHr hr,
+  #enableStep1Body #enableBodyRight hr {
+    height: 1px;
+  }
+  /* step 1 */
+  #enableStep {
+    margin: 2.5rem 5rem;
+  }
+  #enableStepForm #enableStepFormEmail #sendCode,
+  #enableStepForm #enableStepFormEmail #enableResendTim {
+    left: 37rem;
+  }
+  /* step 4 conclusion */
+  #enableStepForm #enableStepFormEmail #enabled {
+    left: 40.5rem;
+  }
+  #enableVerified {
+    margin: 0 17.5rem;
+  }
+  /* step security verification */
+  #enableStepSecurityVerify #enableStepForm #enableStepFormEmail #sendCode {
+    left: 39rem;
+  }
+
+  /* notification */
+  #contentNavIconHeaderHR hr {
+    height: 2px;
+  }
+  /* notification details */
+  #contentNotifyDetails {
+    left: -65%;
+  }
+  /* profile */
+  #navIcon2HR hr {
+    height: 2px;
+  }
+
+  /* about */
+  #about #aboutParaMore #aboutParaMoreHR hr{
+    height: 2px;
+  }
+  #aboutText h1 {
+    margin: -10rem 0 0 0;
+  }
+  #aboutIcons {
+    margin: 2.5rem 0 0 5rem;
+  }
+  #about #aboutParaMore {
+    margin: 3rem 9.5rem;
+  }
+}
+
+/* tablet */
+@media (min-width:481px)and (max-width:768px) {
+  #login {
+    max-width: 100%;
+    margin: 0rem;
+  }
+  #loginLeft {
+    max-width: 100%;
+    width: 25rem;
+    padding: 1rem;
+  }
+  #loginLeft #loginLeftText {
+    margin: -7rem 0 0 5rem;
+  }
+  #loginForm1 a {
+    margin: 1rem 0 0 15.5rem;
+  }
+  #loginForm2 a {
+    margin: 1rem 0 0 17.5rem;
+  }
+  #loginRight #loginCheckbox label {
+    margin: 0 2rem 0 0;
+  }
+  #loginRight #loginSi {
+    top: 3.5rem;
+    margin: 0rem 6.2rem;
+  }
+  #loginRight1 {
+    max-width: 100%;
+    width: 24rem;
+    margin: 7rem 0rem;
+  }
+  #loginRight1 h1 {
+    font-size: 1.5rem;
+  }
+  #signUpRight #loginCheckbox label {
+    margin: 0 1rem 0 0;
+  }
+  #signUpRight #loginSi {
+    top: 4rem;
+    margin: 0rem 6rem;
+  }
+  #fpwdRight {
+    width: 25rem;
+  }
+  #fpwdRight #loginCheckbox label {
+    margin: 0 1rem 0 0;
+  }
+  #fpwdRight #loginSi {
+    top: 3.5rem;
+    margin: 0rem 6.7rem;
+  }
+
+  #mark p {
+    margin: 1rem 0 0 18rem;
+  }
+  #loginMsg1,
+  #loginMsg {
+    margin: 1rem 17rem;
+  }
+
+  /* subscription management */
+  #headBody {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  #sideNav a {
+    min-width: 3rem;
+  }
+  #headImg #headImg1 {
+    width: 44.2rem;
+  }
+  #headImg #headImg2 {
+    width: 16.5rem;
+    margin: -12rem 0 0 13rem;
+  }
+  #headImg h1 {
+    font-size: 1.5rem;
+    margin: -17rem 0 0 11rem;
+  }
+  #headImg p {
+    font-size: 0.8rem;
+    margin: -15rem 0 0 13rem;
+  }
+  #list .listBox {
+    margin: 1rem 3rem 4rem 3rem;
+  }
+  #list .listBox #content {
+    top: 25%;
+    right: 16%;
+  }
+  #trial {
+    padding: 4rem 5rem;
+  }
+  #trial h1 {
+    font-size: 1rem;
+  }
+  #trial p {
+    font-size: 1rem;
+  }
+
+  #columnsHead #columnsImg {
+    margin: 1rem 0rem 0 23rem;
+  }
+  #columnsHead {
+    margin: 3rem 0;
+  }
+  #columnTable1 {
+    margin: 0 4rem 0 0;
+    width: 49rem;
+  }
+  /* payment details */
+  #paymentHistory {
+    background-color: #FFFFFF;
+    max-width: 100%;
+    width: 88%;
+    margin: 1rem;
+  }
+  #paymentHistory #paymentHistoryHeader {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  #paymentHistory #paymentHistoryHeader h1 {
+    margin-bottom: 1rem;
+  }
+  #paymentHistory #paymentHistorybody #paymentHistorybodyPaid #paymentHistorybodyPaidRight {
+    max-width: 95.3%;
+    overflow: auto;
+  }
+   /* payment popover */
+   #contentPaymentDetails, #contentPaymentDetails1 {
+    left: 4.5rem;
+    width: 43rem;
+  }
+  #PaymentDetailsBodyHR hr {
+    height: 2px;
+  }
+  #PaymentDetailsBody1 #PaymentDetailsBody1Sub1 {
+    margin-right: 3rem;
+    flex-direction: column;
+  }
+  #PaymentDetailsBody2 {
+    width: 32rem;
+  }
+  #PaymentDetailsBody3 {
+    width: 37rem;
+  }
+
+
+  /* user */ 
+  #userRoles {
+    width: 37rem;
+  } 
+  #userRoles h3 {
+    width: 18rem;
+    padding: 1rem 6rem;
+  }
+  #userRolesName p {
+    width: 11rem;
+  }
+  #userRolesName1 label {
+    margin: 2rem 2rem 0.5rem 6rem;
+  }
+
+  /* roles */
+  #inviteRole1 p {
+    margin: 1rem 0rem;
+  }
+  #inviteRoles {
+    max-width: 13.9rem;
+    height: 14rem;
+  }  
+  #inviteRolesSub p {
+    margin: 1rem 0rem;
+    font-size: 1rem;
+  }
+  #inviteRolesHeader p {
+    margin: 0.5rem 0rem 0 0;
+  }
+  #inviteRolesHeader h3 {
+    margin: 1.5rem 0 0 0.5rem;
+  }
+  #inviteRolesHeader a {
+    padding: 0px 4px;
+    margin-left: -0.5rem;
+  }
+  #inviteRolesFooter p {
+    margin: 10px 0 10px 0;
+    padding-right: 6px;
+  }
+  #inviteRolesFooter h6 {
+    margin: 15px 5px;
+  }
+  #inviteRolesFooter a {
+    margin: 0.5rem 0 0 1rem;
+  }
+
+  /* user Details */
+
+  #userRolesName1 p {
+    padding: 1rem;
+  }  
+  #rolesUserList #userRolesName1 label {
+    margin: 2rem 2rem 0.5rem 1.5rem;
+  }
+  #rolesUserList #userRolesName1 h3 a label {
+    margin: 0rem;
+  }
+  #rolesUserList #userRolesName1 #userRolesIcons label {
+    margin: 0rem;
+  }
+  #contentUserDetail {
+    width: 28rem;
+    top: 16rem;
+    left: 20%;
+    padding: 2rem 2.5rem;
+  }
+  #contentUserDetail #bodyUserDetail  {
+    display: flex;
+    flex-direction: column;
+  }
+  #contentUserDetail #bodyUserDetail #bodyUserDetailImg {
+    margin: 0 9rem;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail1 {
+    margin: 0.5rem 6rem;
+    text-align: center;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail p,
+  #contentUserDetail #footerUserDetail .bodyUserDetail p {
+    font-size: 16px;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail h3,
+  #contentUserDetail #footerUserDetail .bodyUserDetail h3 {
+    width: 8rem;
+    font-size: 16px;
+  }
+  #contentUserDetail #footerUserDetail {
+    display: flex;
+    flex-direction: column;
+    margin: -2rem 0;
+  }
+
+  /* settings */
+  #settings {
+    height: auto;
+  }
+  #settingsLeft {
+    width: 100%;
+    margin: 0 2rem;
+  }
+  #settingsRight {
+    width: 100%;
+    margin: 1.5rem 2rem;
+  }
+  #contentOrgInfo {
+    top: 112%;
+  } 
+  #contentPassword {
+    top: 122%;
+  }
+
+  /* side nav bar */
+  #settindSideNav #sideNav #sideNavIcon1 {
+    margin: 0 0 3.5rem 0;
+  }
+  
+  /* step 1 */
+  #enableStep {
+    margin: 0.5rem 1rem;
+    width: 42rem;
+  }
+  #enableStep #enableStep1HeaderText #enableStep1Text1 {
+    margin-left: 1.5rem;
+  }
+  #enableStep #enableStep1HeaderText #enableStep1Text3 {
+    margin-left: 6rem;  
+  }
+  #enableStep #enableStep1HeaderText #enableStep1Text4 {
+    margin-left: 1rem;
+  }
+  #enableStep #stepIndication {
+    margin: 0rem 17rem 1.5rem 17rem;
+  }
+  #enableStep #enableStep1BodyImg {
+    margin: 2rem 10rem;
+  }
+  /* step 2 */
+  #enableStep1Body {
+    width: 25rem;
+  }
+  /* step 3 */
+  #enableStepPara p {
+    margin: 0 7rem;
+  }
+  /* step 4 */
+  #enableStepForm #enableStepFormEmail #sendCode,
+  #enableStepForm #enableStepFormEmail #enableResendTim {
+    left: 29rem;
+  }
+  /* step 4 conclusion */
+  #enableStepForm #enableStepFormEmail #enabled {
+    left: 33.5rem;
+  }
+  #enableVerified {
+    margin: 0 11.5rem;
+  }
+  /* step security verification */
+  #enableStepSecurityVerify #enableStepForm label {
+    margin: 0 4rem -1.5rem 12rem;
+  }
+  #enableStepSecurityVerify #enableStepForm #enableStepFormEmail #sendCode {
+    left: 29rem;
+  }
+  #enableStepSecurityVerify .enableInvalid-feedback {
+    margin: 0px 12rem;
+  }
+
+  /* about */
+  #about {
+    width: 41rem;
+  }
+  #aboutText h1 {
+    font-size: 1.3rem;
+    margin: -8rem 0 0 0;
+  }
+  #aboutIcons {
+    margin: 2rem 0 0 0;
+    align-items: center;
+  }
+  #aboutIcons a {
+    width: 7rem;
+    padding: 1rem 0;
+    margin-right: 2rem;
+  }
+  #aboutIcons a h4 {
+    font-size: 1.1rem;
+    margin: 1rem 0 0 0rem;
+  }
+  #about #aboutParaMore {
+    width: 28rem;
+    margin: 3rem 5rem;
+  }
+  #about #aboutParaMore1 #aboutParaMoreHead h3 {
+    font-size: 0.8rem;
+  }
+  #about #aboutParaMore1 #aboutParaMoreBody p {
+    font-size: 0.8rem;
+    width: 26rem;
+  }
+  #about #aboutParaMore3 #aboutParaMore3Link {
+    margin: 1rem;
+  }
+
+  /* notification details */
+  #contentNotifyDetails {
+    left: -20%;
+    width: 32rem;
+  }
+}
+
+/* mobile */
+@media (min-width:320px) and (max-width:480px) {
+  #login {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+  }
+  #loginImg2, #loginLeftText, hr {
+    display: none;
+  }
+  #loginLeft {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  #loginRight {
+    max-width: 100%;
+    width: 18rem;
+    padding: 0;
+    margin: 1rem;
+  }
+  #loginRight h1, #loginRight p {
+    text-align: center;
+  }
+  #loginForm1 a {
+    margin: 1rem 0 0 14.5rem;
+  }
+  #loginForm2 a {
+    margin: 1rem 0 0 16.5rem;
+  }
+  #loginRight #loginCheckbox label {
+    margin: 0 1rem 0 0;
+  }
+  #loginRight button {
+    margin: 1rem 4rem;
+  }
+  #loginRight h4 {
+    margin: 0 0 4rem 0;
+  }
+  #loginRight #loginSi {
+    top: 0.5rem;
+    margin: 0rem 5.8rem;
+  }
+  #loginRight1 {
+    max-width: 100%;
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+  #loginRight1 h1 {
+    padding: 0rem 2.6rem;
+  }
+  #loginRight1 img {
+    margin: -1.5rem 0 0 16rem;
+  }
+  #loginRight1 button {
+    margin: 5rem 5rem 1rem 5rem;
+  }
+  #signUpRight {
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+  #signUpRight h1, #signUpRight p {
+    text-align: center;
+  }
+  #signUPForm1 a {
+    margin: 1rem 0 0 14.5rem;
+  }
+  #signUPForm2 a {
+    margin: 1rem 0 0 16.5rem;
+  }
+  #signUPForm2 #resendTim a {
+    margin: 0 1rem 0 -2.5rem;
+  }
+  #signUPForm2 #resendTim p {
+    margin: 0.29rem 0 0 -1.5rem;
+  }
+  #signUpRight #loginCheckbox label {
+    margin: 0 1rem 1rem 0;
+  }
+  #signUPForm3 a {
+    margin: 1rem 0 0 16.5rem;
+  }
+  #signUpRight button {
+    margin: 1rem 5rem;
+  }
+  #signUpRight h4 {
+    margin-bottom: 4rem;
+  }
+  #signUpRight #loginSi {
+    top: 0.7rem;
+    margin: 0rem 5.8rem;
+  }
+  #fpwdRight {
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+  #fpwdRight h2, #fpwdRight p {
+    text-align: center;
+  }
+  #fpwdForm1 a {
+    margin: 1rem 0 0 14.5rem;
+  }
+  #fpwdForm2 a {
+    margin: 1rem 0 0 16.5rem;
+  }
+  #fpwdForm2 #resendTim a {
+    margin: 0 1rem 0 -2.5rem;
+  }
+  #fpwdForm2 #resendTim p {
+    margin: 0rem 0 0 -1.5rem;
+  }
+  #fpwdRight #loginCheckbox label {
+    margin: 0 1rem 1rem 0;
+  }
+  #fpwdForm3 a {
+    margin: 1rem 0 0 16.5rem;
+  }
+  #fpwdRight button {
+    margin: 1rem 5rem;
+  }
+  #fpwdRight h4 {
+    margin-bottom: 4rem;
+  }
+  #fpwdRight #loginSi {
+    top: 0.7rem;
+    margin: 0rem 5.8rem;
+  }
+
+  #mark p {
+    margin: 1rem 0 0 4rem;
+  }  
+  #loginMsg {
+    margin: 1rem 3rem;
+  }
+
+  /* subscription management */
+  #sideNav {
+    height: 4rem;
+    width: 100%;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  #sideNav #sideNavIcon1,
+  #sideNav #sideNavIcon2 {
+    flex-direction: row;    
+  }
+  #sideNav #sideNavIcon1 a,
+  #sideNav #sideNavIcon2 a {
+    min-width: 3.75rem;
+    margin: 0;
+  }
+  #headImg #headImg2 {
+    width: 7rem;
+    margin: -5rem 0 0 6rem;
+  }
+  #headImg h1 {
+    font-size: 0.8rem;
+    margin: -7.5rem 0 0 4rem;
+  }
+  #headImg p {
+    font-size: 0.45rem;
+    margin: -6.5rem 0 0 5rem;
+  }
+  #list .listBox {
+    margin: 1rem 2rem 4rem 2rem;
+  }
+  #list .listBox:hover,
+  #list .listBox:active {
+    width: 18rem;
+    height: 36rem;  
+    margin: 1rem 1rem 4rem 1rem;
+    padding: 1rem 1rem 1rem 2rem;
+  }
+  #list .listBox #boxImg,
+  #list .listBox #boxImg1 {
+    margin: 1rem 4.5rem;
+  }
+  #trial {
+    padding: 3rem 2rem;
+  }
+  #trial h1 {
+    font-size: 1rem;
+  }
+  #trial p {
+    font-size: 1rem;
+  }
+  #columnsHead #columnsImg {
+    margin: 1rem 0rem 0 9rem;
+  }
+  #columnsHead {
+    margin: 3rem 0;
+  }
+  #columnTable1 {
+    margin: 0 0 0 1rem;
+    max-width: 100%;
+    width: 1rem;
+  }
+  th {
+    width: 14rem;
+  }
+  td {
+    padding: 0 1rem;
+  }
+  #list .listBox #content {
+    width: 18rem;
+    padding: 1rem;
+    right: 0%;
+  }
+  #list .listBox #content p {
+    margin: 0 2rem;
+  }
+
+  /* payment details */
+  #paymentHistory {
+    background-color: #FFFFFF;
+    max-width: 100%;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+  #paymentHistory #paymentHistoryHeader {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  #userHeadRight {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #userHeadRight .searchIcon {
+    margin: 11px 1px 1px 126px;
+  }
+  #userHeadRightManage {
+    margin: 1rem 0;
+  }
+  #paymentHistory #paymentHistorybody {
+    margin: 1.5rem 0 3rem 0;
+  }
+  #paymentHistorybodyPaid #paymentHistorybodyPaidleft hr {
+    display: block;
+  }
+  #paymentHistory #paymentHistoryHeader h1 {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+  }
+  #paymentHistory #paymentHistorybody #paymentHistorybodyPaid #paymentHistorybodyPaidRight {
+    max-width: 95.3%;
+    overflow: auto;
+    margin-left: 2rem;
+  }
+  /* payment popover */
+  #contentPaymentDetails, #contentPaymentDetails1 {
+    left: 1rem;
+    width: 18rem;
+  }
+  #PaymentDetailsBodyHR hr {
+    height: 2px;
+    display: block;
+  }
+  #PaymentDetailsBody1 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #PaymentDetailsBody1 #PaymentDetailsBody1Sub1 {
+    margin-right: 3rem;
+  }
+  #PaymentDetailsBody1 #PaymentDetailsBody1Sub {
+    margin-right: 0rem;
+  }
+  #PaymentDetailsBody2 {
+    width: 14rem;
+    flex-direction: column;
+  }
+  #PaymentDetailsBody2Main  {
+    display: flex;
+    align-items: baseline;
+  }
+  #PaymentDetailsBody2Main h6 {
+    margin-left: 0.35rem;
+  }
+  #PaymentDetailsBody3 {
+    width: 17rem;
+    flex-direction: column;
+  }  
+  #PaymentDetailsFooter {
+    margin-bottom: 4rem;
+  }
+
+  /* user management */
+  #userIndex {
+    width: 18rem;
+    padding: 2rem;
+    margin: 2rem 1rem;
+  }
+  #userIndex h1 {
+    font-size: 1.7rem;
+  }
+  #userIndex #userHead {
+    flex-direction: column;
+  }
+  #userHeadLeft {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  #inviteUser {
+    height: 21rem;
+  }
+  #contentUser {
+    width: 18rem;
+    top: 30%;
+  }
+
+  /* user */
+  #userRolesCount {
+    height: 40rem;
+  }
+  #userRolesName .para {
+    width: 11rem;
+  }
+  #userRolesName1 label {
+    margin: 2rem 2rem 0.5rem 6rem;
+  }
+  #userRoles h3 {
+    width: 18rem;
+    padding: 1rem 6rem;
+  }
+  #userNext {
+    flex-direction: column;
+    margin: 3rem 2rem;
+  }
+  #userPages {
+    margin: 0;
+    display: flex;
+    padding: 8px 2px;
+  }
+  #userPages a {
+    margin: 0px 1px;
+    padding: 0 4px;
+  }
+
+  /* roles */
+  #inviteRole1 p {
+    margin: 1rem 0rem;
+  }
+  #inviteRoles {
+    max-width: 13.9rem;
+    height: 16rem;
+    padding: 1.5rem 1rem;
+  }
+  #inviteRolesSub {
+    padding: 3rem 3rem;
+  }
+  #inviteRolesSub p {
+    margin: 1rem 0rem;
+    font-size: 0.9rem;
+  }
+  #inviteRolesHeader p {
+    margin: 0.5rem 0rem 0 0;
+  }
+  #inviteRolesHeader h3 {
+    margin: 1.5rem 0 0 0.5rem;
+  }
+  #inviteRolesHeader a {
+    padding: 0px 4px;
+    margin-left: -0.5rem;
+  }
+  #inviteRolesFooter p {
+    margin: 10px 0 10px 0;
+    padding-right: 6px;
+  }
+  #inviteRolesFooter h6 {
+    margin: 15px 5px;
+  }
+  #inviteRolesFooter a {
+    margin: 0.5rem 0 0 1rem;
+  }
+
+  /* role details */
+  #roleDetails,
+  #teamDetails {
+    max-width: 100%;
+    width: 18rem;
+  }
+  #roleDetails #roleDetailsHeading,
+  #teamDetails #roleDetailsHeading {
+    padding: 1rem 0rem;
+  }
+  #userRolesName1 p {
+    padding: 1rem 0rem;
+  }
+  #userRolesName1 label {
+    margin: 2rem 2rem 0.5rem 1rem;
+  }
+  #userRolesName1 #userRolesIcons {
+    margin: 2rem 0rem 2.2rem -65px; 
+  }
+  #userRoles {
+    max-width: fit-content;
+  }
+  #contentUserDetail {
+    width: 18rem;
+    left: 6%;
+    padding: 1rem 0.5rem;
+  }
+  #contentUserDetail #bodyUserDetail  {
+    display: flex;
+    flex-direction: column;
+  }
+  #contentUserDetail #bodyUserDetail #bodyUserDetailImg {
+    margin: 0 6rem;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail p,
+  #contentUserDetail #footerUserDetail .bodyUserDetail p {
+    font-size: 16px;
+  }
+  #contentUserDetail #bodyUserDetail .bodyUserDetail h3,
+  #contentUserDetail #footerUserDetail .bodyUserDetail h3 {
+    width: 8rem;
+    font-size: 16px;
+  }
+  #contentUserDetail #footerUserDetail {
+    display: flex;
+    flex-direction: column;
+  }
+  #contentAction3 {
+    left: -6rem;
+    width: 13rem;
+  }
+  #contentAction3 #headerAction3 h3, #contentAction4 #headerAction4 h3 {
+    font-size: 1rem;
+    padding: 0;
+  }
+  #bodyAction3, #bodyAction4 {
+    margin: 0rem;
+  }
+  #footerAction3, #footerAction4 {
+    margin: 0.7rem 1rem;
+  }
+  #footerAction3 .btnCancelLink, #footerAction4 .btnCancelLink {
+    margin-bottom: 1rem;
+  }
+  #contentAction, #contentAction2 {
+    width: 13rem;
+    top: 100%;
+    left: -4rem;
+  }
+  #headerAction h3, #headerAction2 h3 {
+    font-size: 0.7rem;
+    padding: 0;
+  }
+  #bodyAction, #bodyAction2 {
+    margin: 0rem;
+  }
+  #contentAction #bodyAction p, #contentAction2 #bodyAction2 p {
+    font-size: 0.7rem;
+    padding: 0;
+  }
+  #footerAction, #footerAction2 {
+    margin: 0.7rem 0rem;
+  }
+  #footerAction button, #footerAction2 button {
+    font-size: 0.7rem;
+    padding: 8px 16px;
+  }
+
+  /* settings */
+  #settindSideNav #sideNav #sideNavIcon1 {
+    margin: 0 0 0rem 0;
+    padding-top: 0.5rem;
+  }
+  #settings {
+    width: 85%;
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
+  #settingsLeft {
+    width: 100%;
+  }
+  #settingsLeft #settingsBasicInfo #basicInfoBody #basicInfoBodyImg {
+    margin: 1rem 4rem;
+  }
+  #settingsLeft #settingsBasicInfo #basicInfoBody #basicInfoBodyText h3 {
+    font-size: 1rem;
+  }
+  #settingsLeft #settingsBasicInfo #basicInfoBody #basicInfoBodyText #basicInfoBodyTextInfo {
+    width: 12rem;
+    align-items: baseline;
+    margin: 0.5rem 0;
+  }
+  #settingsLeft #settingsBasicInfo #basicInfoBody #basicInfoBodyText #basicInfoBodyTextInfo h4 {
+    width: 6rem;
+    font-size: 0.8rem;
+  }
+  #settingsLeft #settingsBasicInfo #basicInfoBody #basicInfoBodyText #basicInfoBodyTextInfo p {
+    font-size: 0.75rem;
+    width: 6rem;
+  }
+  #settingsLeft #settings2FA #footer2FA #footerLogin2FA, #settingsLeft #settings2FA #footer2FA #footerRstpwd2FA {
+    margin: 0 0rem 0 0;
+    width: 13rem;
+    justify-content: space-between;
+  }
+  #settingsRight {
+    width: 100%;
+    margin: 1.5rem 0 4rem 0;
+  }
+  #settingsRight #settingsOrgInfo #orgInfoHeader h1 {
+    font-size: 1.3rem;
+  }
+  settingsRight #settingsOrgInfo #orgInfoBody #orgInfoBodyText {
+    width: 12rem;
+    align-items: baseline;
+    margin: 0.5rem 0;
+  }
+  #settingsRight #settingsOrgInfo #orgInfoBody #orgInfoBodyText h4 {
+    min-width: 6.5rem;
+    font-size: 0.8rem;
+  }
+  #settingsRight #settingsOrgInfo #orgInfoBody #orgInfoBodyText p {
+    font-size: 0.75rem;
+    width: 6rem;
+    font-family: 'Lato-Regular';
+  }
+  #settingsLeft #settingsBasicInfo #basicInfoBody #basicInfoBodyText {
+    margin: 1rem 0.5rem;
+  }
+  /* popover */
+  #contentPassword {
+    top: 177%;
+  }
+  #contentOrgInfo {
+    top: 132%;
+  } 
+
+  /* enable google authenticator */
+  #enableStep {
+    margin: 0.5rem;
+    width: 19rem;
+  }
+  /* step 1 */
+  #enableStep1 #enableStep1Header #enableStep1HeaderImg,
+  #enableStep1 #enableStep1HeaderText #enableStep1Text2, 
+  #enableStep1 #enableStep1HeaderText #enableStep1Text3, 
+  #enableStep1 #enableStep1HeaderText #enableStep1Text4  {
+   display: none;
+  }
+  #enableStep #enableStep1HeaderText #enableStep1Text1 {
+    margin-left: 6.5rem;
+  }
+  #enableStep #enableStep1HeaderText {
+    margin-bottom: 1rem;
+  }
+  #enableStep #stepIndication {
+    margin: 1rem 6rem;
+  }
+  #enableStep #stepIndicationText {
+    margin: 0 1rem;
+  }
+  #enableStep #enableStep1BodyImg {
+    margin: 1rem;
+    width: 17rem;
+  }
+  /* step 2 */
+  #enableStep #enableStep1Header #enableStep1HeaderImgChecked,
+  #enableStep2 #enableStep1Header #enableStep1HeaderImg,
+  #enableStep2 #enableStep1HeaderText #enableStep1Text1, 
+  #enableStep2 #enableStep1HeaderText #enableStep1Text3, 
+  #enableStep2 #enableStep1HeaderText #enableStep1Text4 {
+    display: none;
+  }  
+  #enableStep #enableStep1HeaderText #enableStep1Text2 {
+    margin-left: 7rem;
+  }
+  #enableStep1Body {
+    width: 17rem;
+    margin: 1rem;
+  }
+  #enableStep1Body #enableBodyRight h1 {
+    text-align: center;
+  }
+  /* step 3 */
+  #enableStep3 #enableStep1Header #enableStep1HeaderImg,
+  #enableStep3 #enableStep1HeaderText #enableStep1Text1, 
+  #enableStep3 #enableStep1HeaderText #enableStep1Text2, 
+  #enableStep3 #enableStep1HeaderText #enableStep1Text4 {
+    display: none;
+  } 
+  #enableStep #enableStep1HeaderText #enableStep1Text3 {
+    margin-left: 7rem;
+  } 
+  #enableStep #enableStepPara p {
+    margin: 0 1rem;
+    width: 18rem;
+  }  
+  #enableStep1Body #enableBodyRight #enableBodyRightCode {
+    justify-content: center;
+  }
+  #enableStep #enableStep1Footer {
+    padding-bottom: 5.5rem;
+  }
+  /* step 4 */
+  #enableStep4 #enableStep1HeaderText #enableStep1Text1, 
+  #enableStep4 #enableStep1HeaderText #enableStep1Text2, 
+  #enableStep4 #enableStep1HeaderText #enableStep1Text3 {
+    display: none;
+  } 
+  #enableStep #enableStep1HeaderText #enableStep1Text4 {
+    margin-left: 4rem;
+  } 
+  #enableStepForm label {
+    margin: 0 4rem -1.5rem 1rem;
+  }
+  #enableStepForm #enableStepFormEmail {
+    margin: 0 1rem;
+  }
+  #enableStepForm #enableStepFormEmail #sendCode {
+    left: 13rem;
+  }
+  #enableStepForm #enableStepFormEmail #enableResendTim {
+    left: 13rem;
+    padding-bottom: 0.5rem;
+  }
+  #enableStepForm #enableStepFormEmail #enableResendTim p {
+    padding-left: 0.25rem;
+  }
+  .enableInvalid-feedback {
+    margin: 0 2rem;
+    width: 15rem;
+  }
+  /* step 4 conclusion */
+  #enableStep4Conclusion #enableStep1HeaderText #enableStep1Text1, 
+  #enableStep4Conclusion #enableStep1HeaderText #enableStep1Text2, 
+  #enableStep4Conclusion #enableStep1HeaderText #enableStep1Text3, 
+  #enableStep4Conclusion #enableStep1HeaderText #enableStep1Text4 {
+    display: none;
+  }
+  #enableStepForm #enableStepFormEmail #enabled {
+    left: 17rem;
+  }
+  #enableStep4Conclusion #enableStep #enableStep1Footer {
+    padding-bottom: 2.5rem;
+  }
+  #enableVerified {
+    margin: 1.5rem 0.5rem 5rem 0.5rem;
+  }
+  /* security verification */
+  #enableStepSecurityVerify #enableWarning {
+    margin: 1rem 1rem;
+  }
+  #enableStepSecurityVerify #enableStepForm label {
+    margin: 0 4rem -1.5rem 1rem;
+  }
+  #enableStepSecurityVerify #enableStepForm #enableStepFormEmail #sendCode {
+    left: 13rem;
+  }
+  #enableStepSecurityVerify .enableInvalid-feedback {
+    width: 16rem;
+    margin: 0;
+  }
+  #enableStepSecurityVerify #enableStepForm {
+    margin: 2rem 0;
+  }
+
+  /* notification details */
+  #contentNavIcon {
+    width: 15rem;
+    height: 23rem;
+    right: 4%;
+  }
+  #contentNavIcon #contentNavIconBody .contentNavIconBodyNoti #notifyText p {
+   display: none;
+  }
+  #contentNavIcon #contentNavIconBody .contentNavIconBodyNoti #notifyStatus {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  /* notification details */
+  #contentNotifyDetails {
+    left: -20%;
+    width: 17rem;
+  }
+  #contentNotifyDetails #NotifyDetailsHeader {
+    padding: 0rem 0.5rem;
+    margin: 1.5rem 0;
+  }
+  #contentNotifyDetails #NotifyDetailsHeader  {
+    font-size: 0.8rem;
+  }
+  #contentNotifyDetails #NotifyDetailsBody  {
+    font-size: 0.7rem;
+    margin: 0 1rem;
+  }
+  #contentNotifyDetails #NotifyDetailsBody #NotifyDetailsBodyContent p {
+    width: 7rem;
+  }
+  #contentNotifyDetails #NotifyDetailsBody #NotifyDetailsBodyContent {
+    align-items: baseline;
+  }
+  /* about */
+  #about {
+    width: 17rem;
+  }
+  #aboutText h1 {
+    font-size: 0.9rem;
+    margin-top: -3.5rem;
+  }
+  #aboutIcons {
+    margin: 1rem 0 0 0;
+  }
+  #aboutIcons a {
+    width: 3rem;
+    padding: 1rem 0;
+    margin-right: 1rem;
+  }
+  #aboutIcons a:hover,
+  #aboutIcons a:active {
+  border-bottom: 4px solid #F22C2C;
+}
+  #aboutIcons a h4 {
+    font-size: 0.5rem;
+    margin: 1rem 0 0 0rem;
+  }
+  #aboutIcons #aboutIconsImg {
+    width: 1rem;
+  }
+  #about #aboutParaMore {
+    width: 15rem;
+    margin: 2rem 1rem 5rem 1rem;
+  }
+  #about #aboutParaMore1 #aboutParaMoreHead {
+    padding: 1rem;
+  }
+  #about #aboutParaMore1 #aboutParaMoreHead h3 {
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+  }
+  #about #aboutParaMore1 #aboutParaMoreBody p {
+    font-size: 0.7rem;
+    padding: 1rem;
+    width: 14rem;
+  }
+}

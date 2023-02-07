@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./display.css">
+  <link rel="stylesheet" href="./response.css">
+  <title>User Management</title>
+</head>
+<body>
+  <div id="fullScreen">
+
+    <div id="topNav">
+      <div id="topNavImg">
+        <img src="./img/Group 4726.png" alt="">
+      </div>
+      <div id="topNavSide">
+        <div id="topNavImg1"><img src="./icons/MicrosoftTeams-image (1).png" alt=""></div>
+        <div id="topNavImg2">
+          <img src="./img/OIP.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div>
+
+      <div id="headBody">
+
+      <div id="sideNav">
+        <div id="sideNavIcon1">
+          <a href="#"><img src="./icons/001-dashboard.png"></a>
+          <a href="./usermanagement.html"><img src="./icons/006-time-management.png"></a>
+          <a href="./subscription.html"><img src="./icons/Group 4727.png" title="Subscription Management"></a>
+        </div>
+        <div id="sideNavIcon2">
+          <a href="./settings.html"><img src="./icons/005-settings.png" alt=""></a>
+          <a href="#"><img src="./icons/006-information.png" alt=""></a>
+        </div>
+      </div>
+      
+      <div id="userIndex">
+        <h1>User Management</h1>
+        <div id="userHead">
+          <div id="userHeadLeft">
+            <a href="#user">User</a>
+            <a href="#roles">Roles</a>
+            <a href="">Teams</a>
+          </div>
+          <div id="userHeadRight">
+            <input type="text" name="search" id="searchUser" placeholder="Search">
+            <a href="" class="searchIcon"><img src="./icons/Icon ionic-ios-search.png" alt=""></a>
+            <div id="userHeadRightFilter">
+              <a href=""><img src="./icons/filter.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div id="userIndexHr"><hr></div>
+        
+        <div id="user">
+
+          <div id="userAddons">
+
+            <div id="inviteUser">
+              <div id="inviteUser1">
+                <div id="userD">
+                  <input type="checkbox" id="clickUser">
+                  <label for="clickUser">+</label>
+    
+                  <div id="contentUser">
+                    <div id="headerUser">
+                      <h2>Invite User</h2>
+                      <label for="clickUser"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </div>
+              
+                    <form action="#">
+                     <div class="field2">
+                        <input type="email" placeholder="&#32;">
+                        <label >Email</label>
+                     </div>
+                      <label for="role">Role</label>
+                      <select name="role" id="role">
+                        <option value="Employee">Employee</option>
+                        <option value="Employee">Employee</option>
+                        <option value="Employee">Employee</option>
+                        <option value="Employee">Employee</option>
+                      </select>     
+                      <a href="#">sumbit</a>  
+                    </form>
+                  </div>
+    
+                </div>
+                <p>Invite User</p>
+              </div>
+            </div>
+
+          </div>
+  
+          <div id="userRolesCount">
+            <form action="">
+              <label for="quantity">Rows per page</label>
+              <input type="number" id="quantity"min="1" max="5" placeholder="1">
+            </form>
+  
+            <div id="userRoles">
+              <div id="userRolesName">
+                <h4>Name</h4>
+                <div id="userRolesClr1" class="para"><p>Marvin Damien</p></div>
+                <div id="userRolesClr2"><p class="para">Schmeler Damion</p></div>
+                <div id="userRolesClr3"><p class="para">Bednar Donnell</p></div>
+                <div id="userRolesClr4"><p class="para">Crooks Alia</p></div>
+                <div id="userRolesClr5"><p class="para">Beahan Edwardo</p></div>
+                <div id="userRolesClr6"><p class="para">Gutmann Karina</p></div>
+                <div id="userRolesClr7"><p class="para">Dare Micaela</p></div>
+                <div id="userRolesClr7"><p class="para">Dare Micaela</p></div>
+                <div id="userRolesClr7"><p class="para">Dare Micaela</p></div>
+                <div id="userRolesClr7"><p class="para">Dare Micaela</p></div>
+                <div id="userRolesClr7"><p class="para">Dare Micaela</p></div>
+              </div>
+  
+              <div id="userRolesName1">
+                <h3>Role</h3>
+                <p>Backend Developer</p>
+                <p>UX Architect</p>
+                <p>UI Designer</p>
+                <p>Backend Developer</p>
+                <p>Backend Developer</p>
+                <p>UX Architect</p>
+                <p>UI Designer</p>
+              </div>
+  
+              <div id="userRolesName1">
+                <h3>Email</h3>
+                <p>Suzanne.Howe3@gmail.com</p>
+                <p>Jolie42@yahoo.com</p>
+                <p>Keshaun15@gmail.com</p>
+                <p>Wilton79@gmail.com</p>
+                <p>Rebeka.Bashirian@yahoo.com</p>
+                <p>Pascale_Hand70@hotmail.com</p>
+                <p>Alda97@hotmail.com</p>
+              </div>
+  
+              <div id="userRolesName1">
+                <h3>Status</h3>
+                <div>
+                  <label class="switch" for="clickActionRole3">
+                    <input type="checkbox" id="clickActionRole3">
+                    <span class="slider round"></span>
+
+                    <!-- checked -->
+                    <div id="contentAction3">
+                      <div id="headerAction3">
+                        <h3>Activate User</h3>
+                        <label for="clickAction3"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                      </div>
+                      <div id="bodyAction3">
+                        <p>Do you want to activate this user in your organisation?</p>
+                      </div>
+                      <div id="footerAction3">
+                        <button class="btnCancelLink">Cancel</button>
+                        <button class="btnSubmitLink">Submit</button>
+                      </div>
+                    </div>
+
+                    <!-- unchecked -->
+                    <div id="contentAction4">
+                      <div id="headerAction4">
+                        <h3>Deactivate User</h3>
+                        <label for="clickAction4"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                      </div>
+                      <div id="bodyAction4">
+                        <p>Do you want to deactivate this user from your organisation?</p>
+                      </div>
+                      <div id="footerAction4">
+                        <button class="btnCancelLink">Cancel</button>
+                        <button class="btnSubmitLink">Submit</button>
+                      </div>
+                    </div>
+
+                  </label>
+                </div>
+                <div>
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div>
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div>
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div>
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div>
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div>
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>            
+                </div>
+              </div>
+  
+              <div id="userRolesName1">
+                <h3>Action</h3>
+                <div id="userRolesIcons">
+
+                  <a href="">
+                    <input type="checkbox" id="clickActionRole1">
+                    <label for="clickActionRole1"><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></label>
+                    <div id="contentAction">
+                      <div id="headerAction">
+                        <h3>Resend Link</h3>
+                        <label for="click"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                      </div>
+                      <div id="bodyAction">
+                        <p>Do you want to resend the verification link to this user?</p>
+                      </div>
+                      <div id="footerAction">
+                        <button class="btnCancelLink">Cancel</button>
+                        <button class="btnSubmitLink">Submit</button>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href=""><img src="./icons/Icon feather-refresh-ccw.png" title=""><span class="tooltip">Reset 2FA</span></a>
+                  <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                  <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+
+                  <a href="">
+                    <input type="checkbox" id="clickActionRole2">
+                    <label for="clickActionRole2"><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></label>
+                    <div id="contentAction2">
+                      <div id="headerAction2">
+                        <h3>Remove User</h3>
+                        <label for="click"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                      </div>
+                      <div id="bodyAction2">
+                        <p>Do you want to remove this user from your organisation?</p>
+                      </div>
+                      <div id="footerAction2">
+                        <button class="btnCancelLink">Cancel</button>
+                        <button class="btnSubmitLink">Ok</button>
+                      </div>
+                    </div>
+                  </a>
+                  
+                </div>
+                <div id="userRolesIcons">
+                  <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                  <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                  <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                  <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                  <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+                </div>
+                <div id="userRolesIcons">
+                  <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                  <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                  <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                  <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                  <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+                </div>
+                <div id="userRolesIcons">
+                  <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                  <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                  <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                  <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                  <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+                </div>
+                <div id="userRolesIcons">
+                  <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                  <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                  <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                  <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                  <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+                </div>
+                <div id="userRolesIcons">
+                  <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                  <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                  <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                  <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                  <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+                </div>
+                <div id="userRolesIcons">
+                  <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                  <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                  <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                  <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                  <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+                </div>
+              </div>
+  
+              <div id="userRolesName1">
+                <h3><a href="">
+                  <input type="checkbox" id="clickAdd">
+                  <label for="clickAdd">+</label>
+                  <div id="contentAdd">
+                    <div id="checkBoxAdd">
+                      <input type="checkbox" id="addName">
+                      <label for="addName">Name</label>
+                    </div>
+                    <div id="checkBoxAdd">
+                      <input type="checkbox" id="addRole">
+                      <label for="addRole">Role</label>
+                    </div>
+                    <div id="checkBoxAdd">
+                      <input type="checkbox" id="addEmail">
+                      <label for="addEmail">Email</label>
+                    </div>
+                    <div id="checkBoxAdd">
+                      <input type="checkbox" id="addStatus">
+                      <label for="addStatus">Status</label>
+                    </div>
+                    <div id="checkBoxAdd">
+                      <input type="checkbox" id="addAction">
+                      <label for="addAction">Action</label>
+                    </div>
+                  </div>
+                </a></h3>
+              </div>
+  
+            </div>
+  
+            <div id="userNext">
+              <div id="userindication">
+                <p>Showing 1 to 10 of 125</p>
+              </div>
+              <div id="userPages">
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">.</a>
+                <a href="">.</a>
+                <a href="">.</a>
+                <a href="">7</a>
+                <a href="">8</a>
+                <a href="">9</a>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+
+        <!-- roles
+         -->
+        <div id="roles">
+
+          <div id="inviteRole">
+            <div id="inviteRole1">
+              <div id="roleD">
+                <input type="checkbox" id="clickRole">
+                <label for="clickRole">+</label>
+  
+                <div id="contentRole">
+                  <div id="headerRole">
+                    <h2>Invite User</h2>
+                    <label for="clickRole"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                  </div>
+            
+                  <form action="#">
+                    <div class="field2">
+                      <input type="text" id="role" placeholder="&#32;">
+                      <label for="role">Role Name</label> 
+                    </div> 
+                    <div class="field2">
+                      <input type="email" placeholder="&#32;">                                          
+                      <label>Add Employee Email</label>
+                    </div>
+                    <a href="#">sumbit</a>  
+                  </form>
+                </div>
+  
+              </div>
+              <p>Create Role</p>
+            </div>
+          </div>
+
+          <!-- roles2 -->
+          <div id="role2">
+
+            <div id="inviteRoles">
+              <div id="inviteRolesSub">
+                <div id="roleD">
+                  <input type="checkbox" id="clickRole1">
+                  <label for="clickRole1">+</label>
+    
+                  <div id="contentRole1">
+                    <div id="headerRole1">
+                      <h2>Invite User</h2>
+                      <label for="clickRole1"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </div>
+              
+                    <form action="#">
+                      <div class="field2">
+                        <input type="text" id="role" placeholder="&#32;">
+                        <label for="role">Role Name</label> 
+                      </div> 
+                      <div class="field2">
+                        <input type="email" placeholder="&#32;">                                          
+                        <label>Add Employee Email</label>
+                      </div>
+                      <a href="#">sumbit</a>  
+                    </form>
+                  </div>
+    
+                </div>
+                <p>Create Role</p>
+              </div>
+            </div>
+
+            <div id="inviteRoles">
+
+              <div id="inviteRolesHeader">
+                  <p>UD</p>
+                  <h3>UI UX Designer</h3>
+                  <a href=""><img src="./icons/Icon feather-more-horizontal.png" alt=""></a>
+              </div>
+
+              <div id="inviteRolesBody">
+                <div class="imgBody"><img src="./img/OIP.jpg" alt=""></div>
+                <div class="imgBody"><img src="./img/OIP.jpg" alt=""></div>
+                <div class="imgBody"><img src="./img/OIP.jpg" alt=""></div>
+                <p>+20</p>
+              </div>
+
+              <div id="inviteRolesFooter">
+                <p>23</p>
+                <h6>User</h6>
+                <a href="">Add User</a>
+              </div>
+
+            </div>
+
+          </div>          
+        </div>
+
+        <!-- teams -->
+        
+        <div id="team">
+
+          <div id="inviteRole">
+            <div id="inviteRole1">
+              <div id="roleD">
+                <input type="checkbox" id="clickTeam">
+                <label for="clickTeam">+</label>
+  
+                <div id="contentRole">
+                  <div id="headerRole">
+                    <h2>Invite User</h2>
+                    <label for="clickTeam"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                  </div>
+            
+                  <form action="#">
+                    <div class="field2">
+                      <input type="text" id="role" placeholder="&#32;">
+                      <label for="role">Role Name</label>  
+                    </div>
+                    <div class="field2">
+                      <input type="email" placeholder="&#32;">  
+                      <label >Email</label>
+                    </div>                                        
+                    <a href="#">sumbit</a>  
+                  </form>
+                </div>
+  
+              </div>
+              <p>Create Team</p>
+            </div>
+          </div>
+
+          <!-- roles2 -->
+          <div id="team2">
+
+            <div id="inviteRoles">
+              <div id="inviteRolesSub">
+                <div id="roleD">
+                  <input type="checkbox" id="clickTeam1">
+                  <label for="clickTeam1">+</label>
+    
+                  <div id="contentRole1">
+                    <div id="headerRole1">
+                      <h2>Invite User</h2>
+                      <label for="clickTeam1"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </div>
+              
+                    <form action="#">
+                     <div class="field2">
+                       <input type="text" id="role" placeholder="&#32;">
+                       <label for="role">Role Name</label>  
+                     </div>
+                      <div class="field2">
+                        <input type="email" placeholder="&#32;">
+                        <label >Email</label>
+                      </div>                                          
+                      <a href="#">sumbit</a>  
+                    </form>
+                  </div>
+    
+                </div>
+                <p>Create Team</p>
+              </div>
+            </div>
+
+            <div id="inviteRoles">
+
+              <div id="inviteRolesHeader">
+                  <p>UD</p>
+                  <h3>UI UX Designer</h3>
+                  <a href=""><img src="./icons/Icon feather-more-horizontal.png" alt=""></a>
+              </div>
+
+              <div id="inviteRolesBody">
+                <div class="imgBody"><img src="./img/OIP.jpg" alt=""></div>
+                <div class="imgBody"><img src="./img/OIP.jpg" alt=""></div>
+                <div class="imgBody"><img src="./img/OIP.jpg" alt=""></div>
+                <p>+20</p>
+              </div>
+
+              <div id="inviteRolesFooter">
+                <p>23</p>
+                <h6>User</h6>
+                <a href="">Add User</a>
+              </div>
+
+            </div>
+
+          </div>          
+        </div>
+
+      </div>
+
+      <!-- role Details -->
+
+      <div id="roleDetails">
+       <div id="roleDetailsHeader">
+        <h1>Role Details</h1>
+        <a href=""><img src="./icons/Icon ionic-ios-close.png" alt=""></a>
+       </div>
+       <div id="roleDetailsHeading">
+        <a href="#rolesUserList">User List</a>
+        <a href="">Permissions</a>
+       </div>
+
+       <div id="roleDetailsHR"><hr></div>
+
+       <div id="rolesUserList">
+
+        <div id="userRolesCount">
+          <form action="#">
+            <label for="quantity">Rows per page</label>
+            <input type="number" id="quantity placeholder="1">
+          </form>
+
+          <div id="userRoles">
+            <div id="userRolesName">
+              <h4>Name</h4>
+              <div id="userRolesClr1">
+                <input type="checkbox" id="clickUserDetail">
+                <label for="clickUserDetail"><p class="para">Marvin Damien</p></label>
+
+                <div id="contentUserDetail">
+
+                  <div id="headerUserDetail">
+                    <h1>User Details</h1>
+                    <label for="clickUserDetail"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                  </div>
+
+                  <div id="bodyUserDetail">
+                    <div id="bodyUserDetailImg"><img src="./img/OIP.jpg" alt=""></div>
+                    <div class="bodyUserDetail1">
+                      <h2>Marvin Damien</h2>
+                      <p>Designer</p>
+                    </div>
+                    <div class="bodyUserDetail">
+                      <p>Role :</p>
+                      <h3>UI UX Designer</h3>
+                    </div>
+                    <div class="bodyUserDetail">
+                      <p>Status:</p>
+                      <h5>Active</h5>
+                    </div>
+                  </div>
+
+                  <div id="footerUserDetail">
+                    <div class="bodyUserDetail">
+                      <p>Employee ID :</p>
+                      <h3>TS1001</h3>
+                    </div>
+                    <div class="bodyUserDetail">
+                      <p>Phone :</p>
+                      <h3>+91 96584 23540</h3>
+                    </div>
+                    <div class="bodyUserDetail">
+                      <p>Email :</p>
+                      <h3>stanesryle@taramsys.com   </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="userRolesClr2">
+                <input type="checkbox" id="clickUserDetail">
+                <label for="clickUserDetail"><p class="para">Schmeler Damion</p></label>
+              </div>
+              <div id="userRolesClr3">
+                <input type="checkbox" id="clickUserDetail">
+                <label for="clickUserDetail"><p class="para">Bednar Donnell</p></label>
+              </div>
+              <div id="userRolesClr4">
+                <input type="checkbox" id="clickUserDetail">
+                <label for="clickUserDetail"><p class="para">Crooks Alia</p></label>
+              </div>
+              <div id="userRolesClr5">
+                <input type="checkbox" id="clickUserDetail">
+                <label for="clickUserDetail"><p class="para">Beahan Edwardo</p></label>
+              </div>
+              <div id="userRolesClr6">
+                <input type="checkbox" id="clickUserDetail">
+                <label for="clickUserDetail"><p class="para">Gutmann Karina</p></label>
+              </div>
+              <div id="userRolesClr7">
+                <input type="checkbox" id="clickUserDetail">
+                <label for="clickUserDetail"><p class="para">Dare Micaela</p></label>
+              </div>
+              <div id="userRolesClr7">
+                <input type="checkbox" id="clickUserDetail">
+                <label for="clickUserDetail"><p class="para">Dare Micaela</p></label>              
+              </div>
+            </div>
+
+            <div id="userRolesName1">
+              <h3>Email</h3>
+              <p>Suzanne.Howe3@gmail.com</p>
+              <p>Jolie42@yahoo.com</p>
+              <p>Keshaun15@gmail.com</p>
+              <p>Wilton79@gmail.com</p>
+              <p>Rebeka.Bashirian@yahoo.com</p>
+              <p>Pascale_Hand70@hotmail.com</p>
+              <p>Alda97@hotmail.com</p>
+            </div>
+
+            <div id="userRolesName1">
+              <h3>Phone</h3>
+              <p>4183238661</p>
+              <p>4183238661</p>
+              <p>4183238661</p>
+              <p>4183238661</p>
+              <p>4183238661</p>
+              <p>4183238661</p>
+              <p>4183238661</p>
+            </div>
+
+            <div id="userRolesName1">
+              <h3>Role</h3>
+              <p>UI UX Designer</p>
+              <p>UI UX Designer</p>
+              <p>UI UX Designer</p>
+              <p>UI UX Designer</p>
+              <p>UI UX Designer</p>
+              <p>UI UX Designer</p>
+              <p>UI UX Designer</p>
+            </div>
+
+            <div id="userRolesName1">
+              <h3>Status</h3>
+              <div>
+                <label class="switch" for="clickAction3">
+                  <input type="checkbox" id="clickAction3">
+                  <span class="slider round"></span>
+
+                  <!-- checked -->
+                  <div id="contentAction3">
+                    <div id="headerAction3">
+                      <h3>Activate User</h3>
+                      <label for="clickAction3"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </div>
+                    <div id="bodyAction3">
+                      <p>Do you want to activate this user in your organisation?</p>
+                    </div>
+                    <div id="footerAction3">
+                      <button class="btnCancelLink">Cancel</button>
+                      <button class="btnSubmitLink">Submit</button>
+                    </div>
+                  </div>
+
+                  <!-- unchecked -->
+                  <div id="contentAction4">
+                    <div id="headerAction4">
+                      <h3>Deactivate User</h3>
+                      <label for="clickAction4"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </div>
+                    <div id="bodyAction4">
+                      <p>Do you want to deactivate this user from your organisation?</p>
+                    </div>
+                    <div id="footerAction4">
+                      <button class="btnCancelLink">Cancel</button>
+                      <button class="btnSubmitLink">Submit</button>
+                    </div>
+                  </div>
+
+                </label>
+              </div>
+              <div>
+                <label class="switch">
+                  <input type="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>
+              </div>
+              <div>
+                <label class="switch">
+                  <input type="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>
+              </div>
+              <div>
+                <label class="switch">
+                  <input type="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>
+              </div>
+              <div>
+                <label class="switch">
+                  <input type="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>
+              </div>
+              <div>
+                <label class="switch">
+                  <input type="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>
+              </div>
+              <div>
+                <label class="switch">
+                  <input type="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>            
+              </div>
+            </div>
+
+            <div id="userRolesName1">
+              <h3>Action</h3>
+              <div id="userRolesIcons">
+
+                <a href="">
+                  <input type="checkbox" id="clickAction">
+                  <label for="clickAction"><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></label>
+                  <div id="contentAction">
+                    <div id="headerAction">
+                      <h3>Resend Link</h3>
+                      <label for="click"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </div>
+                    <div id="bodyAction">
+                      <p>Do you want to resend the verification link to this user?</p>
+                    </div>
+                    <div id="footerAction">
+                      <button class="btnCancelLink">Cancel</button>
+                      <button class="btnSubmitLink">Submit</button>
+                    </div>
+                  </div>
+                </a>
+
+                <a href=""><img src="./icons/Icon feather-refresh-ccw.png" title=""><span class="tooltip">Reset 2FA</span></a>
+                <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+
+                <a href="">
+                  <input type="checkbox" id="clickAction2">
+                  <label for="clickAction2"><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></label>
+                  <div id="contentAction2">
+                    <div id="headerAction2">
+                      <h3>Remove User</h3>
+                      <label for="click"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </div>
+                    <div id="bodyAction2">
+                      <p>Do you want to remove this user from your organisation?</p>
+                    </div>
+                    <div id="footerAction2">
+                      <button class="btnCancelLink">Cancel</button>
+                      <button class="btnSubmitLink">Ok</button>
+                    </div>
+                  </div>
+                </a>
+                
+              </div>
+              <div id="userRolesIcons">
+                <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+              </div>
+              <div id="userRolesIcons">
+                <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+              </div>
+              <div id="userRolesIcons">
+                <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+              </div>
+              <div id="userRolesIcons">
+                <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+              </div>
+              <div id="userRolesIcons">
+                <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+              </div>
+              <div id="userRolesIcons">
+                <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+              </div>
+            </div>
+
+            <div id="userRolesName1">
+              <h3><a href="">
+                <input type="checkbox" id="clickAdd1">
+                <label for="clickAdd1">+</label>
+                <div id="contentAdd1">
+                  <div id="checkBoxAdd">
+                    <input type="checkbox" id="addName">
+                    <label for="addName">Name</label>
+                  </div>
+                  <div id="checkBoxAdd">
+                    <input type="checkbox" id="addRole">
+                    <label for="addRole">Role</label>
+                  </div>
+                  <div id="checkBoxAdd">
+                    <input type="checkbox" id="addEmail">
+                    <label for="addEmail">Email</label>
+                  </div>
+                  <div id="checkBoxAdd">
+                    <input type="checkbox" id="addStatus">
+                    <label for="addStatus">Status</label>
+                  </div>
+                  <div id="checkBoxAdd">
+                    <input type="checkbox" id="addAction">
+                    <label for="addAction">Action</label>
+                  </div>
+                </div>
+              </a></h3>
+            </div>
+
+          </div>
+
+          <div id="userNext">
+            <div id="userindication">
+              <p>Showing 1 to 10 of 125</p>
+            </div>
+            <div id="userPages">
+              <a href="">1</a>
+              <a href="">2</a>
+              <a href="">3</a>
+              <a href="">.</a>
+              <a href="">.</a>
+              <a href="">.</a>
+              <a href="">7</a>
+              <a href="">8</a>
+              <a href="">9</a>
+            </div>
+          </div>
+
+        </div>
+
+       </div>
+      </div>
+
+      <!-- team deatils -->
+
+      <div id="teamDetails">
+        <div id="roleDetailsHeader">
+         <h1>Team Details</h1>
+         <a href=""><img src="./icons/Icon ionic-ios-close.png" alt=""></a>
+        </div>
+        <div id="roleDetailsHeading">
+         <a href="#rolesUserList">User List</a>
+         <a href="">Permissions</a>
+        </div>
+ 
+        <div id="roleDetailsHR"><hr></div>
+ 
+        <div id="rolesUserList">
+ 
+         <div id="userRolesCount">
+           <form action="#">
+             <label for="quantity">Rows per page</label>
+             <input type="number" id="quantity placeholder="1">
+           </form>
+ 
+           <div id="userRoles">
+             <div id="userRolesName">
+               <h4>Name</h4>
+               <div id="userRolesClr1">
+                 <input type="checkbox" id="clickUserDetail1">
+                 <label for="clickUserDetail1"><p class="para">Marvin Damien</p></label>
+ 
+                 <div id="contentUserDetail">
+ 
+                   <div id="headerUserDetail">
+                     <h1>User Details</h1>
+                     <label for="clickUserDetail1"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                   </div>
+ 
+                   <div id="bodyUserDetail">
+                     <div id="bodyUserDetailImg"><img src="./img/OIP.jpg" alt=""></div>
+                     <div class="bodyUserDetail1">
+                       <h2>Marvin Damien</h2>
+                       <p>Designer</p>
+                     </div>
+                     <div class="bodyUserDetail">
+                       <p>Role :</p>
+                       <h3>UI UX Designer</h3>
+                     </div>
+                     <div class="bodyUserDetail">
+                       <p>Status:</p>
+                       <h5>Active</h5>
+                     </div>
+                   </div>
+ 
+                   <div id="footerUserDetail">
+                     <div class="bodyUserDetail">
+                       <p>Employee ID :</p>
+                       <h3>TS1001</h3>
+                     </div>
+                     <div class="bodyUserDetail">
+                       <p>Phone :</p>
+                       <h3>+91 96584 23540</h3>
+                     </div>
+                     <div class="bodyUserDetail">
+                       <p>Email :</p>
+                       <h3>stanesryle@taramsys.com   </h3>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div id="userRolesClr2">
+                 <input type="checkbox" id="clickUserDetail1">
+                 <label for="clickUserDetail1"><p class="para">Schmeler Damion</p></label>
+               </div>
+               <div id="userRolesClr3">
+                 <input type="checkbox" id="clickUserDetail1">
+                 <label for="clickUserDetail1"><p class="para">Bednar Donnell</p></label>
+               </div>
+               <div id="userRolesClr4">
+                 <input type="checkbox" id="clickUserDetail1">
+                 <label for="clickUserDetail1"><p class="para">Crooks Alia</p></label>
+               </div>
+               <div id="userRolesClr5">
+                 <input type="checkbox" id="clickUserDetail1">
+                 <label for="clickUserDetail1"><p class="para">Beahan Edwardo</p></label>
+               </div>
+               <div id="userRolesClr6">
+                 <input type="checkbox" id="clickUserDetail1">
+                 <label for="clickUserDetail1"><p class="para">Gutmann Karina</p></label>
+               </div>
+               <div id="userRolesClr7">
+                 <input type="checkbox" id="clickUserDetail1">
+                 <label for="clickUserDetail1"><p class="para">Dare Micaela</p></label>
+               </div>
+               <div id="userRolesClr7">
+                 <input type="checkbox" id="clickUserDetail1">
+                 <label for="clickUserDetail1"><p class="para">Dare Micaela</p></label>              
+               </div>
+             </div>
+ 
+             <div id="userRolesName1">
+               <h3>Email</h3>
+               <p>Suzanne.Howe3@gmail.com</p>
+               <p>Jolie42@yahoo.com</p>
+               <p>Keshaun15@gmail.com</p>
+               <p>Wilton79@gmail.com</p>
+               <p>Rebeka.Bashirian@yahoo.com</p>
+               <p>Pascale_Hand70@hotmail.com</p>
+               <p>Alda97@hotmail.com</p>
+             </div>
+ 
+             <div id="userRolesName1">
+               <h3>Phone</h3>
+               <p>4183238661</p>
+               <p>4183238661</p>
+               <p>4183238661</p>
+               <p>4183238661</p>
+               <p>4183238661</p>
+               <p>4183238661</p>
+               <p>4183238661</p>
+             </div>
+ 
+             <div id="userRolesName1">
+               <h3>Role</h3>
+               <p>UI UX Designer</p>
+               <p>UI UX Designer</p>
+               <p>UI UX Designer</p>
+               <p>UI UX Designer</p>
+               <p>UI UX Designer</p>
+               <p>UI UX Designer</p>
+               <p>UI UX Designer</p>
+             </div>
+ 
+             <div id="userRolesName1">
+               <h3>Status</h3>
+               <div>
+                 <label class="switch" for="clickActionTeamDetails">
+                   <input type="checkbox" id="clickActionTeamDetails">
+                   <span class="slider round"></span>
+ 
+                   <!-- checked -->
+                   <div id="contentAction3">
+                     <div id="headerAction3">
+                       <h3>Activate User</h3>
+                       <label for="clickActionTeamDetails"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                     </div>
+                     <div id="bodyAction3">
+                       <p>Do you want to activate this user in your organisation?</p>
+                     </div>
+                     <div id="footerAction3">
+                       <button class="btnCancelLink">Cancel</button>
+                       <button class="btnSubmitLink">Submit</button>
+                     </div>
+                   </div>
+ 
+                   <!-- unchecked -->
+                   <div id="contentAction4">
+                     <div id="headerAction4">
+                       <h3>Deactivate User</h3>
+                       <label for="clickAction4"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                     </div>
+                     <div id="bodyAction4">
+                       <p>Do you want to deactivate this user from your organisation?</p>
+                     </div>
+                     <div id="footerAction4">
+                       <button class="btnCancelLink">Cancel</button>
+                       <button class="btnSubmitLink">Submit</button>
+                     </div>
+                   </div>
+ 
+                 </label>
+               </div>
+               <div>
+                 <label class="switch">
+                   <input type="checkbox" checked>
+                   <span class="slider round"></span>
+                 </label>
+               </div>
+               <div>
+                 <label class="switch">
+                   <input type="checkbox" checked>
+                   <span class="slider round"></span>
+                 </label>
+               </div>
+               <div>
+                 <label class="switch">
+                   <input type="checkbox" checked>
+                   <span class="slider round"></span>
+                 </label>
+               </div>
+               <div>
+                 <label class="switch">
+                   <input type="checkbox" checked>
+                   <span class="slider round"></span>
+                 </label>
+               </div>
+               <div>
+                 <label class="switch">
+                   <input type="checkbox" checked>
+                   <span class="slider round"></span>
+                 </label>
+               </div>
+               <div>
+                 <label class="switch">
+                   <input type="checkbox" checked>
+                   <span class="slider round"></span>
+                 </label>            
+               </div>
+             </div>
+ 
+             <div id="userRolesName1">
+               <h3>Action</h3>
+               <div id="userRolesIcons">
+ 
+                 <a href="">
+                   <input type="checkbox" id="clickActionTeamDetails1">
+                   <label for="clickActionTeamDetails1"><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></label>
+                   <div id="contentAction">
+                     <div id="headerAction">
+                       <h3>Resend Link</h3>
+                       <label for="clickActionTeamDetails1"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                     </div>
+                     <div id="bodyAction">
+                       <p>Do you want to resend the verification link to this user?</p>
+                     </div>
+                     <div id="footerAction">
+                       <button class="btnCancelLink">Cancel</button>
+                       <button class="btnSubmitLink">Submit</button>
+                     </div>
+                   </div>
+                 </a>
+ 
+                 <a href=""><img src="./icons/Icon feather-refresh-ccw.png" title=""><span class="tooltip">Reset 2FA</span></a>
+                 <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                 <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+ 
+                 <a href="">
+                   <input type="checkbox" id="clickActionTeamDetails2">
+                   <label for="clickActionTeamDetails2"><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></label>
+                   <div id="contentAction2">
+                     <div id="headerAction2">
+                       <h3>Remove User</h3>
+                       <label for="click"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                     </div>
+                     <div id="bodyAction2">
+                       <p>Do you want to remove this user from your organisation?</p>
+                     </div>
+                     <div id="footerAction2">
+                       <button class="btnCancelLink">Cancel</button>
+                       <button class="btnSubmitLink">Ok</button>
+                     </div>
+                   </div>
+                 </a>
+                 
+               </div>
+               <div id="userRolesIcons">
+                 <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                 <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                 <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                 <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                 <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+               </div>
+               <div id="userRolesIcons">
+                 <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                 <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                 <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                 <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                 <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+               </div>
+               <div id="userRolesIcons">
+                 <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                 <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                 <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                 <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                 <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+               </div>
+               <div id="userRolesIcons">
+                 <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                 <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                 <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                 <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                 <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+               </div>
+               <div id="userRolesIcons">
+                 <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                 <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                 <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                 <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                 <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+               </div>
+               <div id="userRolesIcons">
+                 <a href=""><img src="./icons/Icon feather-mail.png"><span class="tooltip">Resend Link</span></a>
+                 <a href=""><img src="./icons/Icon feather-refresh-ccw.png"><span class="tooltip">Reset 2FA</span></a>
+                 <a href=""><img src="./icons/Icon feather-eye.png"><span class="tooltip">View</span></a>
+                 <a href=""><img src="./icons/Icon feather-edit.png"><span class="tooltip">Edit</span></a>
+                 <a href=""><img src="./icons/Icon feather-trash-2.png"><span class="tooltip">Remove</span></a>
+               </div>
+             </div>
+ 
+             <div id="userRolesName1">
+               <h3><a href="">
+                 <input type="checkbox" id="clickAddTeamDetails1">
+                 <label for="clickAddTeamDetails1">+</label>
+                 <div id="contentAdd1">
+                   <div id="checkBoxAdd">
+                     <input type="checkbox" id="addName">
+                     <label for="addName">Name</label>
+                   </div>
+                   <div id="checkBoxAdd">
+                     <input type="checkbox" id="addRole">
+                     <label for="addRole">Role</label>
+                   </div>
+                   <div id="checkBoxAdd">
+                     <input type="checkbox" id="addEmail">
+                     <label for="addEmail">Email</label>
+                   </div>
+                   <div id="checkBoxAdd">
+                     <input type="checkbox" id="addStatus">
+                     <label for="addStatus">Status</label>
+                   </div>
+                   <div id="checkBoxAdd">
+                     <input type="checkbox" id="addAction">
+                     <label for="addAction">Action</label>
+                   </div>
+                 </div>
+               </a></h3>
+             </div>
+ 
+           </div>
+ 
+           <div id="userNext">
+             <div id="userindication">
+               <p>Showing 1 to 10 of 125</p>
+             </div>
+             <div id="userPages">
+               <a href="">1</a>
+               <a href="">2</a>
+               <a href="">3</a>
+               <a href="">.</a>
+               <a href="">.</a>
+               <a href="">.</a>
+               <a href="">7</a>
+               <a href="">8</a>
+               <a href="">9</a>
+             </div>
+           </div>
+ 
+         </div>
+ 
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+</html> 

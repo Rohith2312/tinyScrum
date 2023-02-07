@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./response.css">
+  <title>Login</title>
+</head>
+<body>
+  <div id="fullscreenLogin">
+    <div id="login">
+      <div id="loginLeft">
+        <div id="loginImg1">
+          <img src="./img/Group 4717.png" alt="">
+        </div>
+        <div id="loginImg2">
+          <img src="./img/Group 4719.png" alt="">
+        </div>
+        <div id="loginLeftText">
+          <h1>Let's get on board</h1>
+          <p>We let you focus on your buisness</p>
+        </div>
+      </div>
+      <div id="loginHr"><hr></div>
+
+      <div id="loginRight">
+        <h1>Login</h1>
+        <p>to your account</p>
+        <div>
+          <div class="field">
+            <div id="loginForm1">
+              <input type="text" id="field1" placeholder="&#32;">
+              <label for="field1">Email</label>
+              <a href="#">change</a>
+            </div>
+          </div>
+          <div class="field">
+            <form id="loginForm2" class="was-validated">        
+              <input type="password" placeholder="&#32;" required>
+              <label>password</label>
+              <!-- <a href="#"><img src="./icons/Icon feather-eye.png" alt=""></a> -->
+              <a href="#"><img src="./icons/Group 4725.png" alt=""></a>
+              <div class="invalid-feedback">Your Password must be at least 8 characters</div>
+            </form>
+          </div>
+          <div id="loginCheckbox">
+            <input type="checkbox" placeholder="Email">
+            <label> Remember me</label>
+            <p>Forgot Password?</p>
+          </div>
+        </div>
+        <button>Next</button>
+        <!-- <button>submit</button> -->
+        <h4>Don't have an account yet? <a href="#signUpRight"> Sign Up</a></h4>
+        <div id="loginFooter">
+          <div><hr></div>
+          <div id="loginSi">
+            <p>Or Sign in with</p>
+            <div id="loginSiIMG">
+              <img src="./img/Group 4722.png" alt="">
+              <img src="./img/Group 4723.png" alt="">
+            </div>
+          </div>
+          <div><hr></div>
+        </div>
+      </div>
+
+      <div id="loginRight1">
+        <h1>Security Verification</h1>
+        <p>To secure your account, please complete the following verification</p>
+        <div class="field">
+          <form action="" class="was-validated">
+            <input type="number" min="1" max="6" required placeholder="&#32;" >
+            <label>Google verification code</label>
+            <img src="./img/Group 4724.png" alt="">
+            <div class="invalid-feedback">Enter the 6 digit code from Google Authenticator.</div>
+            <div class="valid-feedback">Enter the correct 6 digit code</div>
+          </form>
+        </div>
+        <button>submit</button>
+      </div>
+
+      <div id="signUpRight">
+        <h1>Sign Up</h1>
+        <p>to your account</p>
+        <div>
+          <div id="signUPForm1" class="field">
+            <input type="text" placeholder="&#32;">
+            <label>Email</label>
+            <a href="#">change</a>
+          </div>
+          <div class="field">
+            <form action="#" id="signUPForm2">
+              <input type="number" placeholder="&#32;">
+              <label for="number">OTP</label>
+              <div class="invalid-feedback">Please enter valid OTP</div>
+              <!-- <a href="#"><img src="./icons/Icon feather-eye.png" alt=""></a> -->
+              <!-- <div id="resendTim">
+                <a href="#"><img src="./icons/Icon feather-clock.png" alt=""></a>
+                <p>Resend in 59s</p>
+              </div> -->
+              <div id="resend">
+                <p>Resend</p>
+              </div>
+            </form>
+          </div>
+          <div id="loginCheckbox">
+            <input type="checkbox" placeholder="Email">
+            <label for="checkbox"> Remember me</label>
+            <p>Forgot Password?</p>
+          </div>
+          <div class="field">
+            <form id="signUPForm3" class="was-validated">
+              <input type="password" required placeholder="&#32;">
+              <label for="password">New password</label>
+              <a href="#"><img src="./icons/Icon feather-eye.png" alt=""></a>
+              <!-- <div class="invalid-feedback">Your Password must be at least 8 characters</div> -->
+            </form>  
+          </div>        
+        </div>
+        <button>Next</button>
+        <!-- <button>submit</button> -->
+        <h4>Don't have an account yet? <a href="#signUpRight"> Sign Up</a></h4>
+        <div id="loginFooter">
+          <div><hr></div>
+          <div id="loginSi">
+            <p>Or Sign in with</p>
+            <div id="loginSiIMG">
+              <img src="./img/Group 4722.png" alt="">
+              <img src="./img/Group 4723.png" alt="">
+            </div>
+          </div>
+          <div><hr></div>
+        </div>
+      </div>
+
+      <!-- forget password -->
+      <div id="fpwdRight">
+        <h2>Forgot Password</h2>
+        <p>Confirm your email and we'll send you OTP</p>
+        <div>
+          <div id="fpwdForm1" class="field">
+            <input type="text" placeholder="&#32;">
+            <label>Email</label>
+            <a href="#">change</a>
+          </div>
+          <form action="#" id="fpwdForm2" class="field">
+            <input type="password" placeholder="&#32;">
+            <label>OTP</label>
+            <div class="invalid-feedback">Please enter valid OTP</div>
+            <!-- <a href="#"><img src="./icons/Icon feather-eye.png" alt=""></a> -->
+            <!-- <div id="resendTim">
+              <a href="#"><img src="./icons/Icon feather-clock.png" alt=""></a>
+              <p>Resend in 59s</p>
+            </div> -->
+            <div id="resend">
+              <p>Resend</p>
+            </div>
+          </form>
+          <div id="loginCheckbox">
+            <input type="checkbox" placeholder="Email">
+            <label for="checkbox"> Remember me</label>
+            <p>Forgot Password?</p>
+          </div>
+          <form id="fpwdForm3" class="was-validated field">
+            <input type="password" required placeholder="&#32;">
+            <label>New password</label>
+            <a href="#"><img src="./icons/Icon feather-eye.png" alt=""></a>
+            <!-- <div class="invalid-feedback">Your Password must be at least 8 characters</div> -->
+          </form>          
+        </div>
+        <button>Next</button>
+        <!-- <button>submit</button> -->
+        <h4>Don't have an account yet? <a href="#signUpRight"> Sign Up</a></h4>
+        <div id="loginFooter">
+          <div><hr></div>
+          <div id="loginSi">
+            <p>Or Sign in with</p>
+            <div id="loginSiIMG">
+              <img src="./img/Group 4722.png" alt="">
+              <img src="./img/Group 4723.png" alt="">
+            </div>
+          </div>
+          <div><hr></div>
+        </div>
+      </div>
+
+      
+
+    </div>
+    <div id="mark"><p>© 2021. Taramsys Pvt Ltd</p></div>
+    <div id="loginMsg">
+      <div id="imgLoginMsg"><img src="./img/Group 4724.png" alt=""></div>
+      <p>Login Successfull</p>
+    </div>
+
+    <!-- <div id="loginMsg1">
+      <div id="imgLoginMsg"><img src="./img/Group 4724.png" alt=""></div>
+      <p>Password Successfull</p>
+    </div> -->
+  </div>
+</body>
+</html>

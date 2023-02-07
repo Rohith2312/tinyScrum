@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./display.css">
+  <link rel="stylesheet" href="./response.css">
+  <title>Settings</title>
+</head>
+<body>
+
+  <div id="fullScreen">
+
+    <!-- top navigation bar -->
+    <div id="topNav">
+      <div id="topNavImg">
+        <img src="./img/Group 4726.png" alt="">
+      </div>
+      <div id="topNavSide">
+        <div id="topNavImg1"><img src="./icons/MicrosoftTeams-image (1).png" alt=""></div>
+        <div id="topNavImg2">
+          <img src="./img/OIP.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div id="headBody">
+
+      <!-- side navigation bar -->
+      <div id="settindSideNav">
+        <div id="sideNav">
+          <div id="sideNavIcon1">
+            <a href="#"><img src="./icons/001-dashboard.png"></a>
+            <a href="./usermanagement.html"><img src="./icons/006-time-management.png"></a>
+            <a href="./subscription.html"><img src="./icons/Group 4727.png" title="Subscription Management"></a>
+          </div>
+          <div id="sideNavIcon2">
+            <a href="./settings.html"><img src="./icons/005-settings.png" alt=""></a>
+            <a href="#"><img src="./icons/006-information.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- settings -->
+      <div id="settings">
+
+        <!-- settings left side -->
+        <div id="settingsLeft">
+
+          <!-- basic info -->
+          <div id="settingsBasicInfo">
+
+            <div id="basicInfoHeader">
+              <h1>Basic Info</h1>
+              <!-- popover -->
+              <div id="basicInfoHeaderImg">
+                <input type="checkbox" id="clickBasicInfo">
+                <label for="clickBasicInfo"><img src="./icons/Icon feather-edit.png"></label>
+
+                <div id="contentbasicinfo">
+                  <div id="headerBasicInfo">
+                    <h1>Edit User Profile</h1>
+                    <a href="#">
+                      <label for="clickBasicInfo"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </a>
+                  </div>
+                  <div id="bodyBasicInfo">
+                    <form action="">
+                      <div class="field1">
+                        <input type="text" placeholder="&#32;">
+                        <label>First Name</label>
+                      </div>
+                      <div class="field1">
+                        <input type="text" placeholder="&#32;">
+                        <label>Last Name</label>
+                      </div>
+                        <label>Gender</label>                     
+                        <select placeholder="&#32;">
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                        </select>
+                      <div class="field1">
+                        <input type="tel" placeholder="&#32;">
+                        <label>Mobile No.</label>
+                      </div>
+                      <div class="field1">
+                        <input type="text" placeholder="&#32;">
+                        <label>Upload Photo</label>
+                      </div>                    
+                        <label>Country / Region</label>                
+                        <select placeholder="&#32;">
+                          <option value="india">India</option>
+                          <option value="usa">USA</option>
+                          <option value="uk">UK</option>
+                          <option value="uae">UAE</option>
+                          <option value="brazil">Brazil</option>
+                        </select>                   
+                     
+                    </form>
+                    
+                    <a href="">Update</a>
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div id="basicInfoBody">
+              <div id="basicInfoBodyImg">
+                <img src="./img/OIP.jpg" alt="#">
+              </div>
+
+              <div id="basicInfoBodyText">
+                <h3>taramsysorg@taramsys.com</h3>
+                <div id="basicInfoBodyTextInfo">
+                  <h4>First Name</h4>
+                  <p>: venget</p>
+                </div>
+                <div id="basicInfoBodyTextInfo">
+                  <h4>Last Name</h4>
+                  <p>: murali</p>
+                </div>
+                <div id="basicInfoBodyTextInfo">
+                  <h4>Gender</h4>
+                  <p>: male</p>
+                </div>
+                <div id="basicInfoBodyTextInfo">
+                  <h4>Mobile No.</h4>
+                  <p>: 1234567890</p>
+                </div>
+                <div id="basicInfoBodyTextInfo">
+                  <h4>Country / Region</h4>
+                  <p>: india</p>
+                </div>
+                <div id="basicInfoBodyTextInfo">
+                  <h4>IP Address</h4>
+                  <p>: 198 20 20 00</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 2FA -->
+          <div id="settings2FA">
+            <div id="header2FA">
+              <h1>2FA</h1>
+              <a href="#enableStep1">Enable</a>
+              <!-- <a href="#enableStep1">Disable</a> -->
+            </div>
+
+            <div id="body2FA">
+              <p>Protected Actions</p>
+            </div>
+
+            <div id="footer2FA">
+              <div id="footerLogin2FA">
+                <div><p>Login</p></div>
+                <div class="footer2FAToggle">
+                  <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div id="footerRstpwd2FA">
+                <p>Reset Password</p>
+                <div class="footer2FAToggle">
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        
+        <!-- settings right side -->
+        <div id="settingsRight">
+
+          <!-- organization info -->
+          <div id="settingsOrgInfo">
+            <div id="orgInfoHeader">
+              <h1>Organization Info</h1>
+              <!-- popover -->
+              <div id="orgInfoHeaderImg">
+                <input type="checkbox" id="clickOrgInfo">
+                <label for="clickOrgInfo"><img src="./icons/Icon feather-edit.png"></label>
+
+                <div id="contentOrgInfo">
+                  <div id="headerBasicInfo">
+                    <h1>Edit Organization Info</h1>
+                    <a href="#">
+                      <label for="clickOrgInfo"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </a>
+                  </div>
+                  <div id="bodyBasicInfo">
+                    <form action="">                      
+                      <div class="field1">
+                        <input type="text" placeholder="&#32;">
+                        <label>Edit Organization Info</label>                      
+                      </div>
+                      <div class="field1">
+                        <input type="text" placeholder="&#32;">
+                        <label>Time Zone</label>
+                      </div>
+                      <label for="basicInfoGender">Language</label>
+                      <select id="basicInfoGender">
+                        <option value="english">English</option>
+                        <option value="tamil">Tamil</option>
+                      </select>                      
+                    </form>                    
+                    <a href="">Update</a>                    
+                  </div>
+
+                </div>              
+
+              </div>
+            </div>
+
+            <div id="orgInfoBody">
+              <div id="orgInfoBodyText">
+                <h4>Company Name</h4>
+                <p>: Taramsys </p>
+              </div>
+              <div id="orgInfoBodyText">
+                <h4> Employee ID</h4>
+                <p>: TS036</p>
+              </div>
+              <div id="orgInfoBodyText">
+                <h4>Role</h4>
+                <p>: Admin</p>
+              </div>
+              <div id="orgInfoBodyText">
+                <h4>Plan</h4>
+                <div id="orgInfoBodyTextLink">
+                  <p>: Free Trail </p>
+                  <a href="#">
+                    <h6>Upgrade / downgrade</h6>
+                    <img src="./icons/Path 6016.png">
+                  </a>
+                </div>
+              </div>
+              <div id="orgInfoBodyText">
+                <h4>Time Zone</h4>
+                <p>: (+5:30) India Standard Time ( Asia/Kolkata ) </p>
+              </div>
+              <div id="orgInfoBodyText">
+                <h4>language</h4>
+                <p>: English</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- login password -->
+          <div id="settingsPassword">
+            <h1>Login Password</h1>
+            <!-- popover -->
+            <div id="settingsPasswordT">
+              <input type="checkbox" id="clickPassword">
+              <label for="clickPassword">Change</label>
+
+                <div id="contentPassword">
+                  <div id="headerBasicInfo">
+                    <h1>Change Login Password</h1>
+                    <a href="#">
+                      <label for="clickPassword"><img src="./icons/Icon ionic-ios-close.png" alt=""></label>
+                    </a>
+                  </div>
+                  <div id="bodyBasicInfo">
+                    <form action="">                      
+                      <div class="field1">
+                        <input type="password" placeholder="&#32;">
+                        <label>New Password</label>                      
+                      </div>
+                     <div class="field1">
+                       <input type="password" placeholder="&#32;">   
+                       <label>Confirm Password</label>
+                     </div>                                       
+                    </form>                    
+                    <a href="">Update</a>                    
+                  </div>
+
+                </div>
+
+            </div>
+          </div>
+
+          <!-- Base Currency -->
+          <div id="settingsCurrency">
+            <h1>Base Currency</h1>
+            <a href="#">
+              <p>USD</p>
+              <img src="./icons/Group 4725.png" alt="">
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- google aunthenticator -->
+
+      <!-- step 1 -->
+      <div id="enableStep1">
+        <div id="enableStep">
+          <h1>Enable Google Authenticator</h1>
+          <!-- icons -->
+          <div id="enableStep1Header">
+            <div>
+              <div id="enableStep1HeaderImgHighlight"><img src="./icons/Icon feather-download.png" alt=""></div>
+            </div>
+  
+            <div class="ebableStep1HeaderHrHighLight"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImg"><img src="./icons/Icon ionic-ios-qr-scanner.png" alt=""></div>
+            </div>
+  
+            <div id="ebableStep1HeaderHr"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImg"><img src="./icons/Icon feather-key.png" alt=""></div>
+            </div>
+  
+            <div id="ebableStep1HeaderHr"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImg"><img src="./icons/Icon feather-unlock.png" alt=""></div>
+            </div>
+          </div>
+          <!-- headings -->
+          <div id="enableStep1HeaderText">
+            <p id="enableStep1Text1">Download App</p>
+            <p id="enableStep1Text2">Scan QR Code</p>
+            <p id="enableStep1Text3">Backup Key</p>
+            <p id="enableStep1Text4">Enable Google Authenticator</p>
+          </div>
+          <!-- on which step -->
+         <div id="stepIndication"> <p>STEP 1</p> </div>
+  
+         <div id="stepIndicationText"><p>Download and install the Google Authenticator App</p></div>
+  
+         <div id="enableStep1BodyImg">
+          <a href=""><img src="./img/Group 4744.png" alt=""></a>
+         </div>
+  
+         <div id="enableStep1Footer">
+          <a href="#enableStep2">Next</a>
+         </div>
+        </div>
+
+      </div>
+
+      <!-- step 2 -->
+      <div id="enableStep2">
+        <div id="enableStep">
+          <h1>Enable Google Authenticator</h1>
+          <!-- icons -->
+          <div id="enableStep1Header">
+            <div>
+              <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png" alt=""></div>
+            </div>
+  
+            <div class="ebableStep1HeaderHrHighLight"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImgHighlight"><img src="./icons/Icon ionic-ios-qr-scanner.png" alt=""></div>
+            </div>
+  
+            <div class="ebableStep1HeaderHrHighLight"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImg"><img src="./icons/Icon feather-key.png" alt=""></div>
+            </div>
+  
+            <div id="ebableStep1HeaderHr"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImg"><img src="./icons/Icon feather-unlock.png" alt=""></div>
+            </div>
+          </div>
+          <!-- headings -->
+          <div id="enableStep1HeaderText">
+            <p id="enableStep1Text1">Download App</p>
+            <p id="enableStep1Text2">Scan QR Code</p>
+            <p id="enableStep1Text3">Backup Key</p>
+            <p id="enableStep1Text4">Enable Google Authenticator</p>
+          </div>
+          <!-- on which step -->
+         <div id="stepIndication"> <p>STEP 2</p> </div>
+  
+         <div id="stepIndicationText"><p>Download and install the Google Authenticator App</p></div>
+  
+         <div id="enableStep1Body">
+          <div id="enableBodyImg"><img src="./icons/Icon metro-qrcode.png" alt=""></div>
+          <div id="enableBodyRight">
+            <p>If you are unable to scan the QR code. Please enter this code manually into the app.</p>
+            <h1>KMETCOJIST33FNEN</h1>
+            <hr>
+          </div>
+         </div>
+  
+         <div id="enableStep1Footer">
+          <div id="enableFooterPrev"><a href="#enableStep1">Prev Step</a></div>
+          <div id="enableFooterNext"><a href="#enableStep3">Next</a></div>
+         </div>
+        </div>
+
+      </div>
+
+      <!-- step 3 -->
+      <div id="enableStep3">
+        <div id="enableStep">
+          <h1>Enable Google Authenticator</h1>
+          <!-- icons -->
+          <div id="enableStep1Header">
+            <div>
+              <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png"></div>
+            </div>
+  
+            <div class="ebableStep1HeaderHrHighLight"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png" alt=""></div>
+            </div>
+  
+            <div class="ebableStep1HeaderHrHighLight"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImgHighlight"><img src="./icons/Icon feather-key.png" alt=""></div>
+            </div>
+  
+            <div id="ebableStep1HeaderHr"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImg"><img src="./icons/Icon feather-unlock.png" alt=""></div>
+            </div>
+          </div>
+          <!-- headings -->
+          <div id="enableStep1HeaderText">
+            <p id="enableStep1Text1">Download App</p>
+            <p id="enableStep1Text2">Scan QR Code</p>
+            <p id="enableStep1Text3">Backup Key</p>
+            <p id="enableStep1Text4">Enable Google Authenticator</p>
+          </div>
+          <!-- on which step -->
+         <div id="stepIndication"> <p>STEP 3</p> </div>
+  
+         <div id="enableStepPara"><p>Please save this Key on paper. This KeyScan this QR Code in the Google Authenticator App.</p></div>
+  
+         <div id="enableStep1Body">
+          <div id="enableBodyImg"><img src="./icons/002-paper.png" alt=""></div>
+          <div id="enableBodyRight">
+            <p>Resetting your Google Authentication requires Opening a support ticket and takes at least 7 days to process</p>
+            <div id="enableBodyRightCode">
+              <h1>KMETCOJIST33FNEN</h1>
+              <a href="#"><img src="./icons/Path 6016.png" alt=""></a>
+            </div>
+            <hr>
+          </div>
+         </div>
+  
+         <div id="enableStep1Footer">
+          <div id="enableFooterPrev"><a href="#enableStep1">Prev Step</a></div>
+          <div id="enableFooterNext"><a href="#enableStep3">Next</a></div>
+         </div>
+        </div>
+
+      </div>
+
+      <!-- step 4 -->
+      <div id="enableStep4">
+        <div id="enableStep">
+          <h1>Enable Google Authenticator</h1>
+          <!-- icons -->
+          <div id="enableStep1Header">
+            <div>
+              <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png"></div>
+            </div>
+  
+            <div class="ebableStep1HeaderHrHighLight"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png" alt=""></div>
+            </div>
+  
+            <div class="ebableStep1HeaderHrHighLight"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png" alt=""></div>
+            </div>
+  
+            <div class="ebableStep1HeaderHrHighLight"><hr></div>
+  
+            <div>
+              <div id="enableStep1HeaderImgHighlight"><img src="./icons/Icon feather-unlock.png" alt=""></div>
+            </div>
+          </div>
+          <!-- headings -->
+          <div id="enableStep1HeaderText">
+            <p id="enableStep1Text1">Download App</p>
+            <p id="enableStep1Text2">Scan QR Code</p>
+            <p id="enableStep1Text3">Backup Key</p>
+            <p id="enableStep1Text4">Enable Google Authenticator</p>
+          </div>
+          <!-- on which step -->
+         <div id="stepIndication"> <p>STEP 4</p> </div>
+  
+         <form action="#" id="enableStepForm">
+           <div id="enableStepFormEmail" class="field1">
+             <input id="emailVerify" type="email" placeholder="&#32;">
+             <!-- <div id="enableResendTim">
+               <a href="#"><img src="./icons/Icon feather-clock.png" alt=""></a>
+               <p>Resend in 59s</p>
+              </div> -->
+              <a href="" id="sendCode">
+                <p>Send Code</p>
+              </a>
+              <label for="emailVerify">E-mail verification code</label>
+            </div>
+            <div class="enableInvalid-feedback">Enter the 6 digit code received by tes***@gmail.com</div>
+          </form>
+
+         <form action="#" id="enableStepForm">
+           <div id="enableStepFormEmail" class="field1">
+             <input id="googleVerify" type="email" placeholder="&#32;">
+             <label for="googleVerify">Google verification code</label>
+            </div>
+            <div class="enableInvalid-feedback">Enter the 6 digit code from Google Authenticator.</div>
+          </form>
+  
+         <div id="enableStep1Footer">
+          <div id="enableFooterPrev"><a href="#enableStep1">Prev Step</a></div>
+          <div id="enableFooterNext"><a href="#enableStep3">Next</a></div>
+         </div>
+        </div>
+
+      </div>
+
+      <!-- step 4 conclusion phase -->
+      <div id="enableStep4Conclusion">
+        <div>
+          <div id="enableStep">
+            <h1>Enable Google Authenticator</h1>
+            <!-- icons -->
+            <div id="enableStep1Header">
+              <div>
+                <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png"></div>
+              </div>
+    
+              <div class="ebableStep1HeaderHrHighLight"><hr></div>
+    
+              <div>
+                <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png" alt=""></div>
+              </div>
+    
+              <div class="ebableStep1HeaderHrHighLight"><hr></div>
+    
+              <div>
+                <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png" alt=""></div>
+              </div>
+    
+              <div class="ebableStep1HeaderHrHighLight"><hr></div>
+    
+              <div>
+                <div id="enableStep1HeaderImgChecked"><img src="./icons/Group 4725.png" alt=""></div>
+              </div>
+            </div>
+            <!-- headings -->
+            <div id="enableStep1HeaderText">
+              <p id="enableStep1Text1">Download App</p>
+              <p id="enableStep1Text2">Scan QR Code</p>
+              <p id="enableStep1Text3">Backup Key</p>
+              <p id="enableStep1Text4">Enable Google Authenticator</p>
+            </div>
+            <!-- on which step -->
+           <div id="stepIndication"> <p>STEP 4</p> </div>
+    
+           <form action="#" id="enableStepForm">
+             <div id="enableStepFormEmail" class="field1">
+               <input id="emailVerify" type="password" placeholder="&#32;">
+               <div id="enabled"><img src="./icons/Group 4725.png" alt=""></div>
+               <label for="emailVerify">E-mail verification code</label>
+              </div>
+            </form>
+  
+           <form action="#" id="enableStepForm">
+             <div id="enableStepFormEmail" class="field1">
+               <input id="googleVerify" type="password" placeholder="&#32;">
+               <div id="enabled"><img src="./icons/Group 4725.png" alt=""></div>
+               <label for="googleVerify">Google verification code</label>
+              </div>
+            </form>
+    
+           <div id="enableStep1Footer">
+            <div id="enableFooterPrev"><a href="#enableStep1">Prev Step</a></div>
+            <div id="enableFooterNext"><a href="#enableStep3">Next</a></div>
+           </div>
+          </div>
+  
+        </div>
+        <div id="enableVerified">
+          <div><img src="./icons/Group 4725.png" alt=""></div>
+          <p>Google Authenticator Successfull</p>
+        </div>
+
+      </div>
+
+       <!-- step security verificATIOn -->
+       <div id="enableStepSecurityVerify">
+        <div id="enableStep">
+          <h1>Security Verification</h1>
+
+          <div id="stepIndicationText"><p>To secure your account, please complete the following verification.</p></div>
+
+          <div id="enableWarning"><p>Disabling Two-Factor Authentication will put your account at grater rick for unauthorized access. 
+            If you disable 2FA, it is highly recommended that you re-enable it as quickly as possible. After 2FA is disabled, if unusual
+             activity is detected.</p>
+          </div>
+         
+         <form action="#" id="enableStepForm">
+           <div id="enableStepFormEmail" class="field1">
+             <input id="emailVerify" type="email" placeholder="&#32;">              
+             <a href="" id="sendCode">
+               <p>Send Code</p>
+              </a>
+              <label for="emailVerify">E-mail verification code</label>
+            </div>
+            <div class="enableInvalid-feedback">Enter the 6 digit code received by tes***@gmail.com</div>
+          </form>
+
+         <form action="#" id="enableStepForm">
+           <div id="enableStepFormEmail" class="field1">
+             <input id="googleVerify" type="email" placeholder="&#32;">
+             <label for="googleVerify">Google verification code</label>
+            </div>
+            <div class="enableInvalid-feedback">Enter the 6 digit code from Google Authenticator.</div>
+          </form>
+  
+         <div id="enableStep1Footer">
+          <div id="enableFooterNext"><a href="#enableStep3">Submit</a></div>
+         </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+  
+</body>
+</html>

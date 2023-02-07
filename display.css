@@ -1,0 +1,59 @@
+#userIndex {
+  /* display: none; */
+}
+#user {
+  display: none;
+}
+#userAddons {
+  display: none;
+}
+#userRolesCount {
+  display: none;
+}
+#roles {
+  display: none;
+}
+#inviteRole {
+  display: none;
+}
+#role2 {
+  display: none;
+}
+#team {
+  /* display: none; */
+}
+#team2 {
+  /* display: none; */
+}
+
+#roleDetails  {
+  display: none;
+}
+/* subscription management */
+#head {
+  /* display: none; */
+}
+
+
+/* settings */
+#settings {
+  display: none;
+}
+#enableStep1 {
+  display: none;
+}
+#enableStep2 {
+  display: none;
+}
+#enableStep3 {
+  display: none;
+}
+#enableStep4 {
+  display: none;
+}
+#enableStep4Conclusion {
+  display: none;
+}
+#enableStepSecurityVerify {
+  /* display: none; */
+}
